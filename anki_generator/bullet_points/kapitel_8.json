@@ -1,0 +1,143 @@
+{
+  "Was bedeutet die Abkürzung API in der Programmierung?": [
+    "API: Application Programming Interface"
+  ],
+  "Was ist eine API in der Programmierung?": [
+    "Reihe von Protokollen und Werkzeugen für Softwareerstellung"
+  ],
+  "Welche Funktionen bietet eine API für Windows-Entwickler?": [
+    "Systemfunktionen",
+    "Dateiverwaltung",
+    "Netzwerkverbindung",
+    "Hardware-Interaktion"
+  ],
+  "Was ermöglicht eine API in Bezug auf die Integration zwischen verschiedenen Anwendungen?": [
+    "Integration zwischen verschiedenen Anwendungen"
+  ],
+  "Wie kann eine Wetter-App eine API nutzen?": [
+    "Nutzung einer API zur schöneren Darstellung von Daten"
+  ],
+  "Wo können APIs eingesetzt werden?": [
+    "In Programmen",
+    "Client-Server-Systeme",
+    "Webanwendungen"
+  ],
+  "Wie werden APIs unterschieden?": [
+    "Funktionsorientiert (Dynamic Link Library)",
+    "Dateiorientiert (Gerätedateien)",
+    "Objektorientiert (ActiveX-DLL)",
+    "Protokollorientiert (FTP/IFP)"
+  ],
+  "Was ermöglicht die Windows API?": [
+    "Zugriff auf Funktionen von Windows"
+  ],
+  "Auf welchen Windows-Versionen können mit Windows API erstellte Anwendungen ausgeführt werden?": [
+    "Auf jeder Windows-Version"
+  ],
+  "Unter welchen Programmiersprachen ist die Windows API nutzbar?": [
+    "C",
+    "C++",
+    "#"
+  ],
+  "Was ist die Funktion einer Server-Client-API?": [
+    "Kommunikation zwischen Server und Clients",
+    "Server als Anbieter von Daten/Ressourcen",
+    "Client nutzt oder fordert Daten an"
+  ],
+  "Was ermöglicht die API dem Client über das Netzwerk zu tun?": [
+    "Daten anfordern",
+    "Aktionen einleiten"
+  ],
+  "Was ermöglicht die API dem Server?": [
+    "Zugriff auf Online-Dienste"
+  ],
+  "Was ist eine Datenbank-API?": [
+    "Spezialisierte API für Zugriff auf Datenbanken"
+  ],
+  "Was ist eine RPC-API?": [
+    "Remote Procedure Call API",
+    "Aufrufen von Funktionen auf anderem System als wären sie lokal"
+  ],
+  "Welche API bietet PHP für DBMS MySQL?": [
+    "Verschiedene APIs für MySQL-Datenbankmanagementsystem"
+  ],
+  "Was bedeutet REST in REST API?": [
+    "REST: Representational State Transfer"
+  ],
+  "Was sind Restful Webdienste?": [
+    "Webdienste, die Rest-Architekturstil verwenden"
+  ],
+  "Welche Regeln verwenden Restful Webdienste?": [
+    "Einheitlicher, vordefinierter Satz von Regeln"
+  ],
+  "Welche Einschränkungen gibt es durch die Rest-Architektur?": [
+    "Einschränkungen für Einheitlichkeit und Effizienz der Webdienste"
+  ],
+  "Was bedeutet es, dass eine Rest API zustandslos ist?": [
+    "Speichert keine Informationen über vorherigen Zustand des Clients",
+    "Jede Anfrage ist unabhängig von anderen"
+  ],
+  "Was bedeutet es, dass eine Rest API zwischenspeicherfähig ist?": [
+    "Ermöglicht Speichern von Antworten für schnelle Bearbeitung zukünftiger Anfragen"
+  ],
+  "Was ist die Client-Server-Struktur in einer Rest API?": [
+    "Client sendet Anfrage",
+    "Server bearbeitet Anfrage und sendet Antwort zurück"
+  ],
+  "Was ist ein mehrschichtiges System in einer Rest API?": [
+    "Anwendung unterteilt in mehrere Schichten",
+    "Jede Schicht erfüllt bestimmte Aufgaben"
+  ],
+  "Was bedeutet 'Code auf Abruf' in einer Rest API?": [
+    "Fähigkeit, Code zu liefern, der auf dem Client ausgeführt wird"
+  ],
+  "Was ist eine einheitliche Schnittstelle?": [
+    "Ermöglicht einheitliche Interaktion mit dem Server",
+    "Unabhängig von Gerät oder Anwendung",
+    "Ressourcenbasiert"
+  ],
+  "Wie werden Ressourcen in einer einheitlichen Schnittstelle behandelt?": [
+    "Identifizierung von Ressourcen in Anfragen",
+    "Manipulation durch Repräsentation"
+  ],
+  "Was sind die Merkmale der Nachrichten in einer einheitlichen Schnittstelle?": [
+    "Nachrichten sind selbstbeschreibend"
+  ],
+  "Was bedeutet es, wenn ein System zustandslos ist?": [
+    "Zustand in Anfrage enthalten",
+    "Server speichert keine Sitzungsinformationen",
+    "Client gibt alle Informationen in Header und URL an"
+  ],
+  "Was ist die Funktion der Zwischenspeicherung in einem Client-Server-System?": [
+    "Macht einige Interaktionen überflüssig",
+    "Server gibt Speicherbedingungen bei Antwort an"
+  ],
+  "Wie funktioniert die Interaktion zwischen Client und Server?": [
+    "Client fordert Ressourcen an",
+    "Server hält Ressourcen bereit",
+    "Unabhängiger Betrieb beider Instanzen"
+  ],
+  "Was ist ein mehrschichtiges System?": [
+    "Anwendungsarchitektur aus mehreren Schichten"
+  ],
+  "Was weiß jede Schicht in einem mehrschichtigen System?": [
+    "Kennt nur die unmittelbar benachbarte Schicht"
+  ],
+  "Was kann in einem mehrschichtigen System zwischen Client und Endserver vergeben werden?": [
+    "Viele Zwischenserver zwischen Client und Endserver"
+  ],
+  "Welche Vorteile bietet ein mehrschichtiges System?": [
+    "Verbesserung der Systemverfügbarkeit",
+    "Ermöglicht Lastausgleich",
+    "Bereitstellung eines gemeinsamen Caches"
+  ],
+  "Was sind die Regeln für die Endung einer URL in einer REST-API?": [
+    "URL endet mit einem Substantiv, z.B. /api/users"
+  ],
+  "Welche Methoden werden in einer REST-API verwendet, um Aktionen zu identifizieren?": [
+    "GET",
+    "PUT",
+    "POST",
+    "DELETE"
+  ]
+}

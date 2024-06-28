@@ -1,0 +1,138 @@
+{
+  "Was sind die Eigenschaften von Cloud Computing?": [
+    "On-demand Self Service: Automatische Provisionierung von Ressourcen ohne Interaktion mit dem Service-Provider",
+    "Broad Network Access: Zugänglich mit Standard-Mechanismen wie Webbrowsern, nicht an spezifischen Client gebunden"
+  ],
+  "Was bedeutet Ressource-Pooling im Kontext von Cloud Computing?": [
+    "Ressourcen liegen in einem Pool vor und sind für viele Anwender verfügbar",
+    "Anwender wissen oft nicht, wo sich Ressourcen befinden",
+    "Möglichkeit, Region, Land oder Rechenzentrum zu wählen"
+  ],
+  "Was ist mit Rapid Elasticity in Cloud Computing gemeint?": [
+    "Services werden schnell und elastisch bereitgestellt",
+    "Teilweise automatische Anpassung an Bedarf"
+  ],
+  "Was sind Mesaured Services in Cloud Computing?": [
+    "Ressourcennutzung wird gemessen und überwacht",
+    "Abrechnung basiert auf tatsächlichem Verbrauch"
+  ],
+  "Was versteht man unter Infrastructure as a Service (IaaS) in Cloud Computing?": [
+    "IT-Ressourcen als Dienst angeboten",
+    "Kunden bauen eigene Services auf, z.B. Betriebssystem mit eigenen Anwendungen"
+  ],
+  "Was ist Platform as a Service (PaaS) in Cloud Computing?": [
+    "Provider stellt komplette Infrastruktur bereit",
+    "Kunde erhält standardisierte Schnittstellen für Skalierbarkeit und Datenbankzugriffe",
+    "Kein Zugriff auf untere Schichten wie Betriebssystem, Hardware",
+    "Eigene Anwendungen können betrieben werden"
+  ],
+  "Was ist Software as a Service (SaaS) in Cloud Computing?": [
+    "Vorgefertigte Anwendungen",
+    "Ganze Kontrolle an Provider übergeben"
+  ],
+  "Was ist Virtualisierung in der IT?": [
+    "Darstellung von Hardware, Software, Speicher etc. auf virtueller Ebene",
+    "Umsetzung durch Software"
+  ],
+  "Was ist Desktop-Virtualisierung?": [
+    "Zentralisierter Server liefert und verwaltet mehrere virtualisierte Desktops",
+    "Individualisierte Desktop-Umgebungen für Benutzer"
+  ],
+  "Was ist Server-Virtualisierung?": [
+    "Mehrere virtuelle Maschinen werden auf einem physischen Server ausgeführt"
+  ],
+  "Was ist Netzwerk-Virtualisierung?": [
+    "Verteilung der Netzwerkbandbreite auf mehrere Kanäle",
+    "Zuordnung zu verschiedenen Servern und Geräten"
+  ],
+  "Was ist Software-Virtualisierung?": [
+    "Trennt Software von Hardware und Betriebssystem"
+  ],
+  "Was ist Speicher-Virtualisierung?": [
+    "Kombination mehrerer Netzwerkspeicherressourcen zu einem einzelnen Speichergerät",
+    "Zugriff für mehrere Benutzer möglich"
+  ],
+  "Was ist ein Virtual Machine Monitor (VMM), auch Hypervisor genannt?": [
+    "Ermöglicht das Ausführen mehrerer virtueller Maschinen auf einem physischen System",
+    "Vollständig isolierte Software-Container, die Hardware gemeinsam nutzen"
+  ],
+  "Welche drei Eigenschaften kennzeichnen die Effizienz eines VMM?": [
+    "Hardwareanweisungen werden direkt ausgeführt, ohne Steuerprogramm",
+    "Kontrollprogramm verwaltet Ressourcen effizient",
+    "Äquivalenz: Programme auf VMM unterscheiden sich nicht von der Ausführung auf realem Rechner"
+  ],
+  "Was ist ein Typ 1 Hypervisor?": [
+    "Verhält sich wie ein Betriebssystem",
+    "Läuft im privilegiertesten Modus zur Unterstützung mehrerer Kopien der Hardware",
+    "Bare-Metal-Hypervisor, läuft direkt auf der Hardware",
+    "Effizient und leistungsstark, gilt als sicher",
+    "Eignet sich für hohe Workloads, Skalierung und Management"
+  ],
+  "Welche Sicherheitsvorteile bietet ein Typ 1 Hypervisor?": [
+    "Direkte Virtualisierung mindert Risiko von Angriffen",
+    "Angriff bleibt auf Gast-VM beschränkt"
+  ],
+  "Wie skaliert ein Typ 1 Hypervisor?": [
+    "Skalierung bis zu mehreren Terabyte RAM und Hunderte von CPU-Kernen",
+    "Erfordert externes Management"
+  ],
+  "Was ist ein Typ 2 Hypervisor?": [
+    "Installiert auf einem Betriebssystem",
+    "Stützt sich auf vorhandenes Betriebssystem zur Verwaltung von CPU, Speicher, Storage, Netzwerkressourcen",
+    "Aktivitäten des Hypervisors durchlaufen das Host-Betriebssystem"
+  ],
+  "Welche Sicherheitsaspekte gibt es bei Typ 2 Hypervisoren?": [
+    "Sicherheitsmängel im Host-Betriebssystem können potenzielle Gefahren für laufende VMs darstellen"
+  ],
+  "Für wen ist der Typ 2 Hypervisor reserviert?": [
+    "Reserviert für Client- und Endbenutzer",
+    "Kostengünstiger als Typ 1",
+    "Ideale Testplattform, günstiger als Cloud"
+  ],
+  "Wie unterscheiden sich Typ 1 und Typ 2 Hypervisoren in Bezug auf Hardwarebeschleunigung (HWB)?": [
+    "Typ 1 und 2 nutzen HWB, aber Typ 1 ist darauf angewiesen",
+    "Typ 1 funktioniert nicht ohne aktivierten HWB im BIOS",
+    "Typ 2 funktioniert mit und ohne HWB, bei Fehlen erfolgt Software-Emulation"
+  ],
+  "Was ist Netzwerkvirtualisierung im Cloud-Computing?": [
+    "Steuerung über Software und Virtual Infrastructure Manager (VIM)",
+    "Bildung von Teilnetzen und Gruppierung von Computern",
+    "Einsatz von Virtual Local Area Networks (VLAN)"
+  ],
+  "Was ist Speichervirtualisierung im Cloud-Computing?": [
+    "Anwendungen greifen auf eine Zwischenschicht zu"
+  ],
+  "Was ist Infrastructure as a Service (IaaS) im Cloud-Computing?": [
+    "Unterste Schicht im Cloud-Computing",
+    "Anbieter stellt virtuelle Infrastruktur wie UPS, Speichersysteme, Datenbanken, Netzwerke",
+    "Kunden installieren eigene Betriebssysteme und übernehmen softwareseitige Administration",
+    "Kosten basieren auf genutzten Ressourcen, CPU-Zeit, Speicherverbrauch"
+  ],
+  "Was ist Platform as a Service (PaaS) im Cloud-Computing?": [
+    "Cloud-Anbieter stellen Entwicklungswerkzeuge und Dienste bereit",
+    "Nutzung durch Programmierer für Entwicklung neuer IT-Lösungen"
+  ],
+  "Was ist Software as a Service (SaaS) im Cloud-Computing?": [
+    "Oberste Schicht des Cloud-Computings",
+    "Bereitstellung kompletter Programme",
+    "Software läuft auf Infrastruktur des Anbieters"
+  ],
+  "Was ermöglicht Infrastructure as a Service (IaaS) im Cloud-Computing?": [
+    "Direkter Zugriff auf virtuelle Maschinen",
+    "Unterstützung verschiedener Betriebssysteme in derselben Cloud"
+  ],
+  "Was bietet Platform as a Service (PaaS) im Cloud-Computing?": [
+    "Pakete von Anwendungen",
+    "Ermöglicht Nutzung ein oder mehrerer Anwendungen",
+    "Keine Bereitstellung von Infrastruktur erforderlich"
+  ],
+  "Was ist Backend as a Service (BaaS) im Cloud-Computing?": [
+    "Auslagerung von Backend-Funktionen mobiler oder Web-Anwendungen",
+    "Fokus auf Frontend"
+  ],
+  "Was kennzeichnet Software as a Service (SaaS) im Cloud-Computing?": [
+    "Software wird auf Abonnementbasis lizenziert und zentral gehostet",
+    "Benutzerzugriff nur auf Software",
+    "Kein Zugriff auf Infrastruktur"
+  ]
+}

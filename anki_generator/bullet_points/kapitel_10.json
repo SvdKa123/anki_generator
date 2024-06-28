@@ -1,0 +1,92 @@
+{
+  "Was sind die ersten Schritte bei der Installation eines Betriebssystems?": [
+    "Kompatibilität des Computers mit Betriebssystem überprüfen",
+    "Startreihenfolge im Boot-Menü/BIOS auf CD/DVD oder USB-Laufwerk ändern"
+  ],
+  "Was passiert nach der Änderung der Startreihenfolge im Boot-Menü/BIOS?": [
+    "Beginn des Installationsvorgangs des Betriebssystems"
+  ],
+  "Können mehrere Betriebssysteme auf einem Computer installiert werden?": [
+    "Ja, Installation mehrerer Betriebssysteme möglich"
+  ],
+  "Was ist GNUGRUB und wofür wird es verwendet?": [
+    "Booten eines von mehreren Betriebssystemen",
+    "Einsatz in Unix-ähnlichen Systemen",
+    "Verwendung in den meisten Linux-Distributionen"
+  ],
+  "Welche Einstellungen müssen beim ersten Gebrauch eines Computers vorgenommen werden?": [
+    "Datum und Uhrzeit einstellen",
+    "Tastaturlayout einstellen",
+    "Benutzerkonto benennen"
+  ],
+  "Was passiert mit den erkannten Geräten beim ersten Gebrauch eines Computers?": [
+    "Aktivierung aller erkannten Geräte",
+    "Automatische Aktualisierung durch den Computer"
+  ],
+  "Was bedeutet es, dass Geräte nach dem Plug-and-Play-Prinzip konzipiert sind?": [
+    "Installation bei erstem Einstecken",
+    "Anpassung an Hardwareänderungen"
+  ],
+  "Was erfordert das Plug-and-Play-Prinzip?": [
+    "Hardwareunterstützung",
+    "Systemsoftware",
+    "Treiber"
+  ],
+  "Was bedeutet die Konfiguration für Mehrbenutzer/Multiprogrammbetrieb?": [
+    "Installation mehrerer Benutzer auf einem Gerät",
+    "Individuelle Zugriffsrechte für jeden Benutzer"
+  ],
+  "Was sind die Zugriffe auf gemeinsame Anwendungen?": [
+    "Zugriff mehrerer Benutzer auf gleiche Anwendungen"
+  ],
+  "Wer ist der 'ranghöchste' Benutzer in einem System?": [
+    "Administrator als ranghöchster Benutzer"
+  ],
+  "Wie wird ein Benutzerkonto in Linux-Systemen angelegt?": [
+    "Über Befehlszeile",
+    "Befehl 'adduser', nur mit 'sudo' verwendbar"
+  ],
+  "Was beinhaltet ein Benutzerkonto in einem Linux-System?": [
+    "Benutzername",
+    "Homeverzeichnis",
+    "Benutzerrechte"
+  ],
+  "Was ist die Userkontensteuerung (UAC) in Windows?": [
+    "Mechanismus zur Durchsetzung der Zugriffskontrolle"
+  ],
+  "Was verhindert die Userkontensteuerung (UAC) in Windows?": [
+    "Verhindert unberechtigte Änderungen an Systemeinstellungen"
+  ],
+  "Was passiert, wenn ein Benutzer eine Anforderung in Windows startet, in Bezug auf die Userkontensteuerung (UAC)?": [
+    "UAC startet und überprüft Benutzerrechte für die Anforderung"
+  ],
+  "Was ermöglichen Updates?": [
+    "Behebung von Bugs",
+    "Sicherheitsupdates"
+  ],
+  "Wie sind Updates heutzutage meistens?": [
+    "Meistens automatisiert"
+  ],
+  "Wie werden Updates auf einem Linux-System durchgeführt?": [
+    "Über den 'Package-Manager'"
+  ],
+  "Was ist die Konfigurationsverwaltung in Linux?": [
+    "Konfiguration von Anwendungen in Textdateien",
+    "Enthält Variablennamen mit Werten/Befehlen/Anweisungen",
+    "Mehrheit in 'letal'"
+  ],
+  "Wovon ist Windows abhängig?": [
+    "Abhängig von der Registry"
+  ],
+  "Was ist die Registry in Windows?": [
+    "Datenbank, die Konfiguration für Windows und Anwendungen speichert"
+  ],
+  "Was enthält die Registry in Windows?": [
+    "Profile für jeden Benutzer",
+    "Informationen über installierte Anwendungen"
+  ],
+  "Was speichert die Registry in Bezug auf Anwendungen?": [
+    "Informationen über installierte Anwendungen",
+    "Arten von Dokumenten, die verarbeitet werden können"
+  ]
+}

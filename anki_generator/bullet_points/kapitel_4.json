@@ -1,0 +1,297 @@
+{
+  "Was ist ein Speicher in der Informatik?": [
+    "Sammlung von Daten in bestimmtem Format",
+    "Speicherung von Anweisungen, Massenverarbeitung von Daten",
+    "Besteht aus Wörtern oder Bytes mit eigenem Speicherplatz"
+  ],
+  "Was ist der Hauptzweck eines Computersystems?": [
+    "Ausführung von Programmen"
+  ],
+  "Warum wird eine Speicherhierarchie in Computersystemen eingesetzt?": [
+    "Bereithalten großer Datenmengen und umfangreicher Befehlsfolgen"
+  ],
+  "Wie sieht eine Speicherhierarchie aus?": [
+    "Pyramidenstruktur"
+  ],
+  "Wozu dient eine Speicherhierarchie?": [
+    "Beschreibung der Unterschiede zwischen Speichertypen"
+  ],
+  "Wie trennt eine Speicherhierarchie den Computerspeicher?": [
+    "Trennung auf Grundlage von Ebenen"
+  ],
+  "Was sind die verschiedenen Ebenen der Pyramidenstruktur in einem Computerspeichersystem?": [
+    "Ebene 0: CPU-Register",
+    "Ebene 1: Cache-Speicher",
+    "Ebene 2: Hauptspeicher oder Primärspeicher",
+    "Ebene 3: Magnetplatten oder Sekundärspeicher",
+    "Ebene 4: Optische Festplatten oder magnetische Typen"
+  ],
+  "Was ist ausschlaggebend für die Verwendung verschiedener Speicherarten in einem Computer?": [
+    "Zugriffsgeschwindigkeit bestimmt Verwendung"
+  ],
+  "Welcher Speicher befindet sich an der Spitze der Pyramidenstruktur in einem Computerspeichersystem?": [
+    "CPU-Register: leistungsfähigster Speicher"
+  ],
+  "Welcher Speicher befindet sich an zweiter Stelle in der Pyramidenstruktur eines Computerspeichersystems?": [
+    "Cache-Speicher"
+  ],
+  "Welche Speicherarten befinden sich an dritter Stelle in der Pyramidenstruktur eines Computerspeichersystems?": [
+    "DRAM-Speicher",
+    "Festplattenspeicher"
+  ],
+  "Was sind die verschiedenen Ebenen eines Caches?": [
+    "L1-Cache",
+    "L2-Cache",
+    "L3-Cache"
+  ],
+  "Was ist der L1-Cache?": [
+    "Erste und kleinste Cache-Ebene",
+    "Nur wenige Kilobyte groß",
+    "Lagert Daten, die gerade in der CPU verwendet werden"
+  ],
+  "Welche Funktion hat jede Ebene des Caches?": [
+    "Unterschiedliche Funktionen für jede Ebene",
+    "L1-Cache speichert Daten, die gerade in der CPU verwendet werden"
+  ],
+  "Was ist der L2-Cache und für was ist er verfügbar?": [
+    "Teil des Prozessorspeichers",
+    "Verfügbar für einen CPU-Kern",
+    "Bei einigen CPUs gemeinsame Nutzung durch mehrere Kerne"
+  ],
+  "Wie unterscheidet sich der L2-Cache vom L1-Cache?": [
+    "Größer als der L1-Cache",
+    "Größere Caches haben größere Latenz",
+    "Längere Kommunikationszeit zwischen CPU und Cache"
+  ],
+  "Warum ist die höhere Latenz des L2-Cache von Bedeutung?": [
+    "Höhere Latenz beeinträchtigt Schnelligkeit",
+    "Längere Kommunikationszeit kann Leistung beeinträchtigen"
+  ],
+  "Was ist der L3-Cache?": [
+    "Speicher mit größerer Menge als L1 und L2 Caches",
+    "Nutzbar von allen Kernen im Speicher"
+  ],
+  "Wie ist die Latenz des L3-Caches im Vergleich zu anderen Caches?": [
+    "Schlechteste Latenz aller Caches"
+  ],
+  "Warum ist der L3-Cache trotz seiner schlechten Latenz wichtig?": [
+    "Verhindert Zwischenspeicherung von Daten im RAM"
+  ],
+  "Wo befindet sich der RAM in der Speicherhierarchie hinsichtlich Geschwindigkeit und Latenz?": [
+    "Schlechteste Geschwindigkeit und Latenz in der Speicherhierarchie"
+  ],
+  "Wie wirkt sich der Zugriff der CPU auf den RAM auf die Geschwindigkeit aus?": [
+    "CPU-Zugriff auf RAM ist am langsamsten"
+  ],
+  "Welche Strategie wird verwendet, um die Geschwindigkeit und Latenz des RAMs zu kompensieren?": [
+    "Verwendung kleinerer, schnellerer und teurerer Cache-Speicher",
+    "Zwischenspeicherung von Daten aus größeren, langsameren Speichern"
+  ],
+  "Wie erfolgt der Zugriff auf verschiedene Speicherorte innerhalb der Hierarchie?": [
+    "Zugriff über spezielle Adressbildung"
+  ],
+  "Welche Aufgaben muss das Betriebssystem im Multitasking erfüllen?": [
+    "Optimale Bereitstellung und Sicherung von Daten von Programmen/Threads"
+  ],
+  "Was sind die Anforderungen an die Speicherverwaltung?": [
+    "Ein- und Auslagern der Prozesse",
+    "Bereitstellen der Daten",
+    "Schutz der Prozesse untereinander",
+    "Maßnahmen bei Speicherengpässen"
+  ],
+  "Was passiert mit freiem Speicher?": [
+    "Freigabe und Vergabe von freiem Speicher"
+  ],
+  "Was passiert, wenn wenig RAM vorhanden ist?": [
+    "Auslagerung in Ebenen der Speicherhierarchie"
+  ],
+  "Wie ist die Speicherbelegung bei Anwendungsprogrammen?": [
+    "Programmbefehle (Text)",
+    "Programmdaten (Daten)",
+    "Dynamische Speicheranforderung (Stack, Heap)"
+  ],
+  "Wofür benötigt das Betriebssystem Speicher?": [
+    "Betriebssystemcode und -daten",
+    "Prozesskontrollblöcke",
+    "Datenpuffer für Ein/Ausgabe"
+  ],
+  "Was passiert mit den Daten in einer Multitasking-Umgebung?": [
+    "Ein- und Auslagern aller Daten"
+  ],
+  "Wo soll Speicher bereitgestellt werden?": [
+    "Bereitstellung im Primärspeicher des Systems"
+  ],
+  "Gibt es Lücken, die gefüllt werden können?": [
+    "Ja, Lücken im Speicher können durch effiziente Speicherverwaltung gefüllt werden"
+  ],
+  "Wie verhindert man Defragmentierung?": [
+    "Durch effiziente Speicherverwaltung und regelmäßige Wartung"
+  ],
+  "Wie soll freier und belegter Speicher verwaltet werden?": [
+    "Verwaltung durch das Speicherverwaltungssystem",
+    "Verschiebung von Daten zwischen Speichersystemen",
+    "Schutz des Speicherplatzes"
+  ],
+  "Was ist die Aufgabe der Speicherverwaltung?": [
+    "Schutz des zugewiesenen Speichers vor Beschädigung durch andere Prozesse",
+    "Ermöglichung der gemeinsamen Nutzung von Speicherplatz"
+  ],
+  "Was ist der Zweck des virtuellen Speichers in einem Betriebssystem?": [
+    "Mehr Speicher adressieren und nutzen als physisch vorhanden",
+    "Teil des Sekundärspeichers als Primärspeicher nutzen"
+  ],
+  "Was ist ein Prozessadressraum?": [
+    "Satz logischer Adressen",
+    "Bezieht sich auf eigenen Code jedes Prozesses"
+  ],
+  "Was ist Paging und wie funktioniert es?": [
+    "Technik der Speicherverwaltung",
+    "Aufteilung des Prozessadressraums in gleich große Blöcke (Seiten)",
+    "Seitengröße: 512 bis 8192 Byte",
+    "Messung der Prozessgröße in Seiten"
+  ],
+  "Was sind Frames in Bezug auf Paging?": [
+    "Blöcke fester Größe, ähnlich wie Seiten",
+    "Optimale Nutzung des Primärspeichers",
+    "Vermeidung externer Fragmentierung"
+  ],
+  "Welche Vorteile bietet Paging?": [
+    "Vermindert externe Fragmentierung",
+    "Einfach zu implementieren",
+    "Speichereffizienz",
+    "Einfaches Auslagern durch gleiche Frame- und Seitengröße",
+    "Schneller Zugriff auf Daten"
+  ],
+  "Was passiert bei der Fragmentierung in Bezug auf den Hauptspeicher?": [
+    "Verschiebung von Prozessen in/aus dem Hauptspeicher",
+    "Aufteilung des freien Speicherplatzes in kleinere Teile"
+  ],
+  "Wann tritt Fragmentierung auf?": [
+    "Wenn kein Speicher für einen Prozess zugewiesen werden kann",
+    "Aufgrund geringerer Größe des verfügbaren Speichers als benötigt"
+  ],
+  "Was ist das Problem der Fragmentierung?": [
+    "Speicherblöcke bleiben ungenutzt",
+    "Problem als Fragmentierung bezeichnet"
+  ],
+  "Was ist externe Fragmentierung?": [
+    "Tritt auf, wenn freier Primärspeicher ausreichend, aber fragmentiert",
+    "Vermeidbar durch Verdichtung/Umschichtung von Daten",
+    "Zusammenfassung freier Speicherblöcke zu einem größeren Block"
+  ],
+  "Was ist interne Fragmentierung und wie kann sie verringert werden?": [
+    "Auftritt, wenn zugewiesener Speicher größer als benötigte Menge",
+    "Teil des Speichers bleibt ungenutzt",
+    "Verringerung durch Zuweisung der kleinsten freien Partition"
+  ],
+  "Was ist Swapping und wofür wird es verwendet?": [
+    "Technik zur effizienten Speicherverwaltung",
+    "Nützlich bei Ausführung großer Programme oder Operationen"
+  ],
+  "Was sind die zwei Hauptaufgaben des Swapping?": [
+    "Swapping in: Verschiebung von Daten aus Sekundär- in Primärspeicher",
+    "Swapping out: Auslagerung von Daten aus Hauptspeicher auf Sekundärspeicher"
+  ],
+  "Was ist die Voraussetzung zur Zuteilung von Speicher an Prozesse?": [
+    "Verwaltung freien Speichers",
+    "Kennzeichnung von Segmenten als belegt oder frei"
+  ],
+  "Was ist die einfachste Form der Speicherzuweisung?": [
+    "Bitliste: Wert 1 (belegt) oder 0 (frei) für jedes Segment"
+  ],
+  "Was ist eine weitere Form der Speicherzuweisung?": [
+    "Verkettete Liste (Linked Lists)",
+    "Informationen über belegt/frei, Anfang und Länge von Segmenten",
+    "Eignet sich für Heap Space mit häufigen Anforderungen/Freigaben"
+  ],
+  "Was ist die First Fit Vergabestrategie?": [
+    "Verwendung der ersten passenden Lücke",
+    "Suche am unteren oder oberen Ende des Speicherraums",
+    "Mögliche Belegung großer Speicherbereiche"
+  ],
+  "Was ist die Rotating First Fit/ Next Fit Vergabestrategie?": [
+    "Verwendung einer passenden Lücke",
+    "Suche beginnt bei zuletzt zugewiesener Lücke"
+  ],
+  "Was ist die Best Fit Vergabestrategie?": [
+    "Suche nach kleinster passender Lücke",
+    "Lücken aufsteigend sortiert",
+    "Geringer Verschnitt"
+  ],
+  "Was ist die Worst Fit Vergabestrategie?": [
+    "Sortierung der Lücken nach Größe absteigend",
+    "Verwendung der ersten verfügbaren Lücke",
+    "Entstehung vieler kleiner Lücken"
+  ],
+  "Was ist das Buddy-Verfahren nach Donald Ervin Knuth?": [
+    "Vermeidung von Verschnitt durch komplexe Methode",
+    "Anfangs ein Block für gesamten Speicher",
+    "Anforderung auf nächsthöhere Zweierpotenz aufgerundet",
+    "Suche nach passendem Block für Prozess",
+    "Zusammenfassung von Buddies gleicher Größe möglich"
+  ],
+  "Was passiert, wenn ein Prozess im Multitasking erneut in den Speicherraum eingeladen wird?": [
+    "Problem mit Speicheradressenzuweisung",
+    "Prozesse müssen an dieselbe Stelle im Hauptspeicher eingelagert werden"
+  ],
+  "Was sind Adresskollisionen im Multitasking und wie entstehen sie?": [
+    "Konflikte bei Zugriff mehrerer Prozesse auf gleiche Adresse",
+    "Entstehung durch statische Bindung von Adressen"
+  ],
+  "Was ist die Partitionierung des Speichers und wie kann sie Adresskollisionen lösen?": [
+    "Aufteilung des Speichers in verschiedene Bereiche",
+    "Eigener Bereich für jeden Prozess vermeidet Kollisionen"
+  ],
+  "Was ist der Unterschied zwischen statischem und dynamischem Binden und wie beeinflussen sie die Flexibilität und Leistung?": [
+    "Statisches Binden: Unveränderlich während Ausführung",
+    "Dynamisches Binden: Kann sich während Ausführung ändern",
+    "Dynamisches Binden bietet Flexibilität, beeinträchtigt aber Leistung"
+  ],
+  "Warum ist zusätzlicher Massenspeicher notwendig?": [
+    "Begrenzte Kapazität in CPU und RAM erfordert zusätzlichen Massenspeicher"
+  ],
+  "Was ist magnetische Aufzeichnung?": [
+    "Verfahren zur Speicherung großer Datenmengen"
+  ],
+  "Was ist die Funktion eines Festplattencontrollers?": [
+    "Abstraktion des physischen Aufbaus von Laufwerken"
+  ],
+  "Welche Aufgaben hat das Betriebssystem in Bezug auf Massenspeicher?": [
+    "Verwaltung von Dateispeicherung",
+    "Sicherheit und Zuverlässigkeit bei Lese-/Schreibvorgängen"
+  ],
+  "Wie ist eine HDD aufgebaut?": [
+    "Besteht aus starren Speicherplatten",
+    "Mit Schreib-/Leseköpfen"
+  ],
+  "Was ermöglicht die CHS-Information?": [
+    "Eindeutige Lokalisierung von Sektoren auf Festplatten"
+  ],
+  "Was macht die Betriebssystemsteuerung in Bezug auf eine HDD?": [
+    "Verwaltung der Speicherplatzvergabe"
+  ],
+  "Was sind die Vorteile von Flash-Speichern im Vergleich zu HDDs?": [
+    "Bessere Leistung",
+    "Höhere Haltbarkeit"
+  ],
+  "Wie funktioniert die Datenaktualisierung bei SSDs?": [
+    "Komplexes Aktualisieren von Daten in Blöcken"
+  ],
+  "Was sind Garbage Collection und TRIM in Bezug auf SSDs?": [
+    "Optimierung der SSD-Leistung",
+    "Erhöhung der Lebensdauer der SSD"
+  ],
+  "Was ist der Zusammenhang zwischen Speichereffizienz, Zugriffsmöglichkeit, Geschwindigkeit und Kosten?": [
+    "Direkter Zusammenhang zwischen Effizienz, Zugriff, Geschwindigkeit und Kosten",
+    "Effizienterer Speicher oft schneller und einfacher im Zugriff, aber teurer"
+  ],
+  "Was sind die verschiedenen Adressbildungsmethoden im Zusammenhang mit Multitasking?": [
+    "Effiziente Verwaltung durch verschiedene Adressbildungsmethoden"
+  ],
+  "Was sind die Alternativen zu mechanischen Magnetplatten als Massenspeicherarten?": [
+    "Solid-State-Drives (SSDs)"
+  ],
+  "Wie präsentiert das Betriebssystem die verschiedenen Massenspeicherarten für den Anwender?": [
+    "Gleiche Präsentationsweise für mechanische Magnetplatten und SSDs"
+  ]
+}

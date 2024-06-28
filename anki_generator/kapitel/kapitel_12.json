@@ -1,0 +1,284 @@
+[
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist Cloud-Computing?",
+            "Antwort": [
+                "Cloud-Computing ist ein Modell für die Bereitstellung von IT-Diensten, bei dem Ressourcen, Software und Informationen über das Internet bereitgestellt werden."
+            ]
+        },
+        {
+            "Frage": "Was sind die Eigenschaften von Cloud-Computing?",
+            "Antwort": [
+                "On-demand Self Service: Ressourcen können automatisch ohne Interaktion mit dem Service-Provider bereitgestellt werden.",
+                "Broad Network Access: Die Dienste sind nicht mit Standard-Mechanismen erreichbar (z.B. Webbrowser) und nicht an einen bestimmten Client gebunden."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was versteht man unter Ressource-Pooling?",
+            "Antwort": [
+                "Ressourcen liegen in einem Pool vor",
+                "Viele Anwender können sich bedienen",
+                "Anwender wissen oft nicht, wo sich die Ressourcen befinden",
+                "Anwender können Region, Land, Rechenzentrum festlegen"
+            ]
+        },
+        {
+            "Frage": "Was bedeutet Rapid Elasticity in Bezug auf Services?",
+            "Antwort": [
+                "Services stehen schnell und elastisch zur Verfügung",
+                "Manchmal erfolgt die Bereitstellung automatisch"
+            ]
+        },
+        {
+            "Frage": "Was sind Measured Services?",
+            "Antwort": [
+                "Die Nutzung von Ressourcen wird gemessen und überwacht",
+                "Es wird das in Rechnung gestellt, was auch verbraucht wurde"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist das Servicemodell Infrastructure as a Service (IaaS)?",
+            "Antwort": [
+                "IT-Ressourcen werden als Dienst angeboten",
+                "Der Kunde baut eigene Services",
+                "Beinhaltet das Betriebssystem mit eigenen Anwendungen"
+            ]
+        },
+        {
+            "Frage": "Was ist das Servicemodell Platform as a Service (PaaS)?",
+            "Antwort": [
+                "Der Provider stellt die komplette Infrastruktur",
+                "Der Kunde erhält standardisierte Schnittstellen",
+                "Ermöglicht Skalierbarkeit und Datenbankzugriffe",
+                "Der Kunde hat keinen Zugriff auf untere Schichten wie Betriebssystem und Hardware",
+                "Der Kunde kann eigene Anwendungen laufen lassen"
+            ]
+        },
+        {
+            "Frage": "Was ist das Servicemodell Software as a Service (SaaS)?",
+            "Antwort": [
+                "Beinhaltet sämtliche vorgefertigte Anwendungen",
+                "Die ganze Kontrolle wird an den Provider übergeben"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was versteht man unter Virtualisierung?",
+            "Antwort": [
+                "Virtualisierung bezieht sich auf die Erstellung von virtuellen Versionen von Hardware, Software, Speicher und mehr, die durch Software ermöglicht wird."
+            ]
+        },
+        {
+            "Frage": "Was ist Desktop-Virtualisierung?",
+            "Antwort": [
+                "Desktop-Virtualisierung ist ein zentralisierter Server, der mehrere individualisierte, virtualisierte Desktops liefert und verwaltet."
+            ]
+        },
+        {
+            "Frage": "Was ist Server-Virtualisierung?",
+            "Antwort": [
+                "Server-Virtualisierung ermöglicht das Ausführen mehrerer virtueller Maschinen auf einem physischen Server."
+            ]
+        },
+        {
+            "Frage": "Was ist Netzwerk-Virtualisierung?",
+            "Antwort": [
+                "Netzwerk-Virtualisierung verteilt die Netzwerkbandbreite auf mehrere Kanäle und ordnet sie verschiedenen Servern und Geräten zu."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist Software-Virtualisierung?",
+            "Antwort": [
+                "Software-Virtualisierung trennt Software von Hardware und Betriebssystem."
+            ]
+        },
+        {
+            "Frage": "Was ist Speicher-Virtualisierung und welche Vorteile bietet sie?",
+            "Antwort": [
+                "Speicher-Virtualisierung kombiniert mehrere Netzwerkspeicher-Ressourcen.",
+                "Sie lässt ein einzelnes Speichergerät entstehen.",
+                "Mehrere Benutzer können auf dieses Speichergerät zugreifen."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist ein Virtual Machine Monitor oder Hypervisor?",
+            "Antwort": [
+                "Ein Hypervisor ermöglicht es, auf einem physischen System mehrere virtuelle Maschinen zu betreiben.",
+                "Diese virtuellen Maschinen sind vollständig isolierte Software-Container, die unabhängig agieren."
+            ]
+        },
+        {
+            "Frage": "Wie nutzen virtuelle Maschinen die Hardware gemeinsam?",
+            "Antwort": [
+                "Virtuelle Maschinen nutzen die Hardware gemeinsam durch drei Eigenschaften des Virtual Machine Monitors: Effizienz, Äquivalenz und Ressourcenkontrolle.",
+                "Die Anweisungen werden direkt von der Hardware ausgeführt, ohne dass ein Steuerprogramm die Ressourcen kontrolliert.",
+                "Es sollte unmöglich sein, dass ein beliebiges Programm den Speicher beeinflusst."
+            ]
+        },
+        {
+            "Frage": "Was ist die Rolle des Kontrollprogramms in einem Virtual Machine Monitor?",
+            "Antwort": [
+                "Das Kontrollprogramm verwaltet die Ressourcen und sorgt dafür, dass jedes Programm vom residenten Steuerprogramm ausgeführt wird.",
+                "Die Ausführung sollte von der eines realen Rechners nicht zu unterscheiden sein."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist ein Typ 1 Hypervisor und wie verhält er sich?",
+            "Antwort": [
+                "Verhält sich wie ein Betriebssystem",
+                "Ist das einzige Programm, das im privilegiertesten Modus läuft",
+                "Unterstützt mehrere Kopien der Hardware",
+                "Bekannt als Bare-Metal-Hypervisor",
+                "Läuft direkt auf der Hardware"
+            ]
+        },
+        {
+            "Frage": "Muss ein Typ 1 Hypervisor ein Betriebssystem laden?",
+            "Antwort": [
+                "Nein, ein Typ 1 Hypervisor muss kein Betriebssystem laden"
+            ]
+        },
+        {
+            "Frage": "Wie greift ein Typ 1 Hypervisor auf die Hardware zu und welche Auswirkungen hat das auf seine Leistung?",
+            "Antwort": [
+                "Hat direkten Zugriff auf die Hardware",
+                "Ist effizient und leistungsstark"
+            ]
+        },
+        {
+            "Frage": "Wie sicher ist ein Typ 1 Hypervisor?",
+            "Antwort": [
+                "Gilt als sicher",
+                "Direkte Virtualisierung mindert das Risiko von Angriffen",
+                "Ein Angriff bleibt auf die Gast-VM beschränkt"
+            ]
+        },
+        {
+            "Frage": "Für welche Art von Workloads wird ein Typ 1 Hypervisor verwendet?",
+            "Antwort": [
+                "Verwendung für hohe Workloads",
+                "Kann mehrere Terabyte RAM und Hunderte von CPU-Kernen skalieren",
+                "Erfordert externes Management"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist ein Typ 2 Hypervisor?",
+            "Antwort": [
+                "Wird auf Betriebssystem installiert",
+                "Stützt sich auf vorhandene Betriebssystem für Verwaltung von CPU, Speicher, Storage, Netzwerkressourcen",
+                "Aktivitäten und Arbeit des Hypervisors durchlaufen das Betriebssystem"
+            ]
+        },
+        {
+            "Frage": "Welche Sicherheitsprobleme können bei einem Typ 2 Hypervisor auftreten?",
+            "Antwort": [
+                "Sicherheitsmängel oder Schwachstellen im Host-Betriebssystem können eine potenzielle Gefahr für laufende virtuelle Maschinen darstellen"
+            ]
+        },
+        {
+            "Frage": "Für wen ist ein Typ 2 Hypervisor reserviert?",
+            "Antwort": [
+                "Typ 2 Hypervisor ist für Client- und Endbenutzer reserviert"
+            ]
+        },
+        {
+            "Frage": "Wie steht ein Typ 2 Hypervisor im Vergleich zu Typ 1 und Cloud hinsichtlich der Kosten?",
+            "Antwort": [
+                "Typ 2 Hypervisor ist kostengünstiger als Typ 1 Hypervisor und günstiger als Cloud"
+            ]
+        },
+        {
+            "Frage": "Warum wird ein Typ 2 Hypervisor als ideale Testplattform betrachtet?",
+            "Antwort": [
+                "Aufgrund seiner Flexibilität und geringeren Kosten wird Typ 2 Hypervisor oft als ideale Testplattform betrachtet"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Welche Typen nutzen Hardwarebeschleunigung?",
+            "Antwort": [
+                "Typ 1 und Typ 2 nutzen Hardwarebeschleunigung"
+            ]
+        },
+        {
+            "Frage": "Auf was ist Typ 1 angewiesen?",
+            "Antwort": [
+                "Typ 1 ist auf Hardware-Beschleunigung angewiesen"
+            ]
+        },
+        {
+            "Frage": "Was passiert, wenn die Hardwarebeschleunigung nicht im BIOS aktiviert ist?",
+            "Antwort": [
+                "Typ 1 funktioniert nicht, wenn die Hardwarebeschleunigung nicht im BIOS aktiviert ist"
+            ]
+        },
+        {
+            "Frage": "Wie funktioniert Typ 2?",
+            "Antwort": [
+                "Typ 2 funktioniert mit und ohne Hardwarebeschleunigung"
+            ]
+        },
+        {
+            "Frage": "Was passiert, wenn die Hardwarebeschleunigung nicht vorhanden ist?",
+            "Antwort": [
+                "Wenn die Hardwarebeschleunigung nicht vorhanden ist, wird eine Software-Emulation verwendet"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist die Funktion des Virtual Infrastructure Manager (VIM) im Cloud-Computing?",
+            "Antwort": [
+                "Steuerung der Netzwerkvirtualisierung",
+                "Bildung von Teilnetzen",
+                "Zusammenfassung von Computern in Gruppen"
+            ]
+        },
+        {
+            "Frage": "Was ist ein Virtual Local Area Network (VLAN)?",
+            "Antwort": [
+                "Es ist ein Teilnetz, das durch Netzwerkvirtualisierung gebildet wird"
+            ]
+        },
+        {
+            "Frage": "Wie funktioniert die Speichervirtualisierung im Cloud-Computing?",
+            "Antwort": [
+                "Anwendungen greifen auf eine Zwischenschicht zu"
+            ]
+        }
+    ]
+}
+]

@@ -1,0 +1,593 @@
+[
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist ein Speicher in der Informatik?",
+                "Antwort": [
+                    "Eine Sammlung von Daten in einem bestimmten Format",
+                    "Wird zur Speicherung von Anweisungen und zur Massenverarbeitung von Daten verwendet",
+                    "Besteht aus einer großen Anordnung oder Gruppe von Wörtern oder Bytes, die jeweils ihren eigenen Speicherplatz haben"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist der Hauptzweck eines Computersystems?",
+                "Antwort": [
+                    "Der Hauptzweck eines Computersystems ist es, Programme auszuführen."
+                ]
+            },
+            {
+                "Frage": "Warum wird eine Speicherhierarchie in Computersystemen eingesetzt?",
+                "Antwort": [
+                    "Eine Speicherhierarchie wird eingesetzt, um große Datenmengen und umfangreiche Befehlsfolgen bereithalten zu können."
+                ]
+            },
+            {
+                "Frage": "Wie sieht eine Speicherhierarchie aus?",
+                "Antwort": [
+                    "Eine Speicherhierarchie sieht aus wie eine Pyramidenstruktur."
+                ]
+            },
+            {
+                "Frage": "Wozu dient eine Speicherhierarchie?",
+                "Antwort": [
+                    "Eine Speicherhierarchie dient zur Beschreibung der Unterschiede zwischen Speichertypen."
+                ]
+            },
+            {
+                "Frage": "Wie trennt eine Speicherhierarchie den Computerspeicher?",
+                "Antwort": [
+                    "Eine Speicherhierarchie trennt den Computerspeicher auf Grundlage von Ebenen."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die verschiedenen Ebenen der Pyramidenstruktur in einem Computerspeichersystem?",
+                "Antwort": [
+                    "Ebene 0: CPU-Register",
+                    "Ebene 1: Cache-Speicher",
+                    "Ebene 2: Hauptspeicher oder Primärspeicher",
+                    "Ebene 3: Magnetplatten oder Sekundärspeicher",
+                    "Ebene 4: Optische Festplatten oder magnetische Typen"
+                ]
+            },
+            {
+                "Frage": "Was ist ausschlaggebend für die Verwendung verschiedener Speicherarten in einem Computer?",
+                "Antwort": [
+                    "Die Zugriffsgeschwindigkeit ist ausschlaggebend für die Verwendung verschiedener Speicherarten in einem Computer."
+                ]
+            },
+            {
+                "Frage": "Welcher Speicher befindet sich an der Spitze der Pyramidenstruktur in einem Computerspeichersystem?",
+                "Antwort": [
+                    "Der leistungsfähigste Speicher, das CPU-Register, befindet sich an der Spitze der Pyramidenstruktur."
+                ]
+            },
+            {
+                "Frage": "Welcher Speicher befindet sich an zweiter Stelle in der Pyramidenstruktur eines Computerspeichersystems?",
+                "Antwort": [
+                    "An zweiter Stelle befindet sich der Cache-Speicher."
+                ]
+            },
+            {
+                "Frage": "Welche Speicherarten befinden sich an dritter Stelle in der Pyramidenstruktur eines Computerspeichersystems?",
+                "Antwort": [
+                    "An dritter Stelle befinden sich der DRAM-Speicher und der Festplattenspeicher."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die verschiedenen Ebenen eines Caches?",
+                "Antwort": [
+                    "L1-Cache",
+                    "L2-Cache",
+                    "L3-Cache"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist der L1-Cache?",
+                "Antwort": [
+                    "Der L1-Cache ist die erste und kleinste Cache-Ebene",
+                    "Er ist nur wenige Kilobyte groß",
+                    "In ihm werden die Daten gelagert, die gerade in der CPU verwendet werden"
+                ]
+            },
+            {
+                "Frage": "Welche Funktion hat jede Ebene des Caches?",
+                "Antwort": [
+                    "Jede Ebene des Caches hat unterschiedliche Funktionen",
+                    "Die erste Ebene, der L1-Cache, speichert die Daten, die gerade in der CPU verwendet werden"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist der L2-Cache und für was ist er verfügbar?",
+                "Antwort": [
+                    "Der L2-Cache ist ein Teil des Prozessorspeichers",
+                    "Er ist für einen CPU-Kern verfügbar",
+                    "Bei einigen CPUs wird er schon von mehreren Kernen gemeinsam genutzt"
+                ]
+            },
+            {
+                "Frage": "Wie unterscheidet sich der L2-Cache vom L1-Cache?",
+                "Antwort": [
+                    "Der L2-Cache ist größer als der L1-Cache",
+                    "Größere Caches haben jedoch größere Latenz",
+                    "Die Kommunikation zwischen CPU und Cache braucht länger"
+                ]
+            },
+            {
+                "Frage": "Warum ist die höhere Latenz des L2-Cache von Bedeutung?",
+                "Antwort": [
+                    "Wenn es um Schnelligkeit geht, ist die höhere Latenz des L2-Cache von Bedeutung",
+                    "Die längere Kommunikationszeit zwischen CPU und Cache kann die Leistung beeinträchtigen"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist der L3-Cache?",
+                "Antwort": [
+                    "Der L3-Cache ist ein Speicher mit einer noch größeren Menge als L1 und L2 Caches.",
+                    "Er kann von allen Kernen im Speicher genutzt werden."
+                ]
+            },
+            {
+                "Frage": "Wie ist die Latenz des L3-Caches im Vergleich zu anderen Caches?",
+                "Antwort": [
+                    "Die L3-Cache Latenz ist am schlechtesten von allen Caches."
+                ]
+            },
+            {
+                "Frage": "Warum ist der L3-Cache trotz seiner schlechten Latenz wichtig?",
+                "Antwort": [
+                    "Der L3-Cache ist wichtig, um Daten nicht im RAM zwischenspeichern zu müssen."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Wo befindet sich der RAM in der Speicherhierarchie hinsichtlich Geschwindigkeit und Latenz?",
+                "Antwort": [
+                    "Der RAM hat die schlechteste Geschwindigkeit und Latenz in der Speicherhierarchie."
+                ]
+            },
+            {
+                "Frage": "Wie wirkt sich der Zugriff der CPU auf den RAM auf die Geschwindigkeit aus?",
+                "Antwort": [
+                    "Wenn die CPU auf den RAM zugreifen muss, ist dies am langsamsten."
+                ]
+            },
+            {
+                "Frage": "Welche Strategie wird verwendet, um die Geschwindigkeit und Latenz des RAMs zu kompensieren?",
+                "Antwort": [
+                    "Kleinere, schnellere und teurere Cache-Speicher werden verwendet, um Daten zwischenzuspeichern, die sich in größeren, langsameren und billigeren Speichern befinden."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Wie erfolgt der Zugriff auf verschiedene Speicherorte innerhalb der Hierarchie?",
+                "Antwort": [
+                    "Der Zugriff erfolgt über eine spezielle Adressbildung."
+                ]
+            },
+            {
+                "Frage": "Welche Aufgaben muss das Betriebssystem im Multitasking erfüllen?",
+                "Antwort": [
+                    "Es muss gewährleisten, dass von einem Programm oder Thread Daten optimal bereitgestellt und gesichert werden."
+                ]
+            },
+            {
+                "Frage": "Was sind die Anforderungen an die Speicherverwaltung?",
+                "Antwort": [
+                    "Ein- und Auslagern der Prozesse",
+                    "Bereitstellen der Daten",
+                    "Schutz der Prozesse untereinander",
+                    "Maßnahmen bei Speicherengpässen"
+                ]
+            },
+            {
+                "Frage": "Was passiert mit freiem Speicher?",
+                "Antwort": [
+                    "Freier Speicher muss freigegeben und vergeben werden können."
+                ]
+            },
+            {
+                "Frage": "Was passiert, wenn wenig RAM vorhanden ist?",
+                "Antwort": [
+                    "Es erfolgt eine Auslagerung in Ebenen der Speicherhierarchie."
+                ]
+            },
+            {
+                "Frage": "Wie ist die Speicherbelegung bei Anwendungsprogrammen?",
+                "Antwort": [
+                    "Programmbefehle (Text)",
+                    "Programmdaten (Daten)",
+                    "Dynamische Speicheranforderung (Stack, Heap)"
+                ]
+            },
+            {
+                "Frage": "Wofür benötigt das Betriebssystem Speicher?",
+                "Antwort": [
+                    "Betriebssystemcode und -daten",
+                    "Prozesskontrollblöcke",
+                    "Datenpuffer für Ein/Ausgabe"
+                ]
+            },
+            {
+                "Frage": "Was passiert mit den Daten in einer Multitasking-Umgebung?",
+                "Antwort": [
+                    "Alle Daten werden ein- und ausgelagert."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Wo soll Speicher bereitgestellt werden?",
+                "Antwort": [
+                    "Speicher wird im Primärspeicher des Systems bereitgestellt."
+                ]
+            },
+            {
+                "Frage": "Gibt es Lücken, die gefüllt werden können?",
+                "Antwort": [
+                    "Ja, es können Lücken im Speicher vorhanden sein, die durch effiziente Speicherverwaltung gefüllt werden können."
+                ]
+            },
+            {
+                "Frage": "Wie verhindert man Defragmentierung?",
+                "Antwort": [
+                    "Defragmentierung wird durch effiziente Speicherverwaltung und regelmäßige Wartung verhindert."
+                ]
+            },
+            {
+                "Frage": "Wie soll freier und belegter Speicher verwaltet werden?",
+                "Antwort": [
+                    "Freier und belegter Speicher wird durch das Speicherverwaltungssystem verwaltet, das Daten zwischen Speichersystemen verschiebt und den Speicherplatz schützt."
+                ]
+            },
+            {
+                "Frage": "Was ist die Aufgabe der Speicherverwaltung?",
+                "Antwort": [
+                    "Die Aufgabe der Speicherverwaltung ist es, den allen Prozessen zugewiesenen Speicher vor Beschädigung durch andere Prozesse zu schützen und die gemeinsame Nutzung von Speicherplatz durch mehrere Prozesse zu ermöglichen."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist der Zweck des virtuellen Speichers in einem Betriebssystem?",
+                "Antwort": [
+                    "Das Betriebssystem kann mehr Speicher adressieren und nutzen als in der Hardware vorhanden ist.",
+                    "Teil des Sekundärspeichers wird als Primärspeicher verwendet."
+                ]
+            },
+            {
+                "Frage": "Was ist ein Prozessadressraum?",
+                "Antwort": [
+                    "Ein Prozessadressraum ist ein Satz logischer Adressen.",
+                    "Jeder Prozess bezieht sich auf seinen eigenen Code."
+                ]
+            },
+            {
+                "Frage": "Was ist Paging und wie funktioniert es?",
+                "Antwort": [
+                    "Paging ist eine Technik der Speicherverwaltung.",
+                    "Der Prozessadressraum wird in Blöcke aufgeteilt.",
+                    "Alle Blöcke haben die gleiche Größe und werden als Seiten bezeichnet.",
+                    "Die Größe einer Seite ist eine Potenz von 2, im Bereich von 512 bis 8192 Byte.",
+                    "Die Größe eines Prozesses wird anhand der Anzahl der Seiten gemessen."
+                ]
+            },
+            {
+                "Frage": "Was sind Frames in Bezug auf Paging?",
+                "Antwort": [
+                    "Frames sind Blöcke fester Größe, ähnlich wie Seiten.",
+                    "Die Größe eines Frames entspricht einer Seite.",
+                    "Frames werden verwendet, um eine optimale Nutzung des Primärspeichers zu erreichen und externe Fragmentierung zu vermeiden."
+                ]
+            },
+            {
+                "Frage": "Welche Vorteile bietet Paging?",
+                "Antwort": [
+                    "Paging vermindert die externe Fragmentierung.",
+                    "Paging ist einfach zu implementieren.",
+                    "Paging trägt zur Speichereffizienz bei.",
+                    "Da die Größe der Frames dieselbe ist wie die der Seiten, wird das Auslagern recht einfach.",
+                    "Paging ist nützlich für den schnellen Zugriff auf Daten."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was passiert bei der Fragmentierung in Bezug auf den Hauptspeicher?",
+                "Antwort": [
+                    "Prozesse werden in/aus dem Hauptspeicher verschoben",
+                    "Der freie Speicherplatz im Primärspeicher wird in kleinere Teile zerlegt"
+                ]
+            },
+            {
+                "Frage": "Wann tritt Fragmentierung auf?",
+                "Antwort": [
+                    "Fragmentierung tritt auf, wenn einem Prozess kein Speicher zugewiesen werden kann",
+                    "Dies geschieht, wenn die Größe des verfügbaren Speichers geringer ist als die benötigte Menge"
+                ]
+            },
+            {
+                "Frage": "Was ist das Problem der Fragmentierung?",
+                "Antwort": [
+                    "Speicherblöcke bleiben ungenutzt",
+                    "Dieses Problem wird als Fragmentierung bezeichnet"
+                ]
+            },
+            {
+                "Frage": "Was ist externe Fragmentierung?",
+                "Antwort": [
+                    "Externe Fragmentierung tritt auf, wenn die Gesamtmenge des freien Primärspeichers ausreicht, um einen Prozess zu speichern",
+                    "Sie kann durch Verdichtung/Umschichtung von Daten im Speicher vermieden werden",
+                    "Alle freien Speicherblöcke werden zusammengefasst und ein größerer Speicherblock wird daraus gebildet"
+                ]
+            },
+            {
+                "Frage": "Was ist interne Fragmentierung und wie kann sie verringert werden?",
+                "Antwort": [
+                    "Interne Fragmentierung tritt auf, wenn der zugewiesene Speicher größer ist als die vom Prozess benötigte Speichermenge",
+                    "Ein Teil des Speichers bleibt ungenutzt, weil er von keinem anderen Prozess benutzt wird",
+                    "Interne Fragmentierung kann verringert werden, indem die kleinste Partition des freien Speichers einem Prozess zugewiesen wird"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist Swapping und wofür wird es verwendet?",
+                "Antwort": [
+                    "Swapping ist eine Technik zur effizienten Verwaltung des Speichers eines Betriebssystems",
+                    "Es ist nützlich, wenn ein großes Programm ausgeführt wird oder eine große Operation an einer großen Datei durchgeführt werden muss"
+                ]
+            },
+            {
+                "Frage": "Was sind die zwei Hauptaufgaben des Swapping?",
+                "Antwort": [
+                    "Swapping in: Datenblöcke werden aus dem Sekundärspeicher in den Primärspeicher verschoben",
+                    "Swapping out: Datenblöcke oder Seiten werden aus dem Hauptspeicher auf den Sekundärspeicher ausgelagert"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist die Voraussetzung zur Zuteilung von Speicher an Prozesse?",
+                "Antwort": [
+                    "Die Verwaltung von freiem Speicher ist die Voraussetzung zur Zuteilung an Prozesse. Segmente des Speichers müssen in geeigneter Form als belegt oder frei gekennzeichnet werden."
+                ]
+            },
+            {
+                "Frage": "Was ist die einfachste Form der Speicherzuweisung?",
+                "Antwort": [
+                    "Die einfachste Form der Speicherzuweisung ist die Bitliste. Sie teilt jedem Speichersegment den Wert 1 (belegt) oder 0 (frei) zu."
+                ]
+            },
+            {
+                "Frage": "Was ist eine weitere Form der Speicherzuweisung?",
+                "Antwort": [
+                    "Eine weitere Form der Speicherzuweisung ist die verkettete Liste (Linked Lists). Sie hält Angaben über belegt/frei, Anfang und Länge von Segmenten fest. Sie eignet sich für den Heap Space eines Prozesses mit häufigen Anforderungen und Freigaben (malloc and free)."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist die First Fit Vergabestrategie?",
+                "Antwort": [
+                    "Die erste passende Lücke wird verwendet",
+                    "Die Suche beginnt am unteren oder oberen Ende des Speicherraums",
+                    "Es kann passieren, dass manchmal ein großer Speicherbereich belegt wird"
+                ]
+            },
+            {
+                "Frage": "Was ist die Rotating First Fit/ Next Fit Vergabestrategie?",
+                "Antwort": [
+                    "Eine passende Lücke wird verwendet",
+                    "Die Suche startet bei der zuletzt zugewiesenen Lücke"
+                ]
+            },
+            {
+                "Frage": "Was ist die Best Fit Vergabestrategie?",
+                "Antwort": [
+                    "Die kleinste passende Lücke wird gesucht",
+                    "Die Lücken müssen aufsteigend sortiert erfasst sein",
+                    "Es entsteht wenig Verschnitt"
+                ]
+            },
+            {
+                "Frage": "Was ist die Worst Fit Vergabestrategie?",
+                "Antwort": [
+                    "Die Lücken werden nach Größe absteigend sortiert",
+                    "Die erste verfügbare Lücke wird verwendet",
+                    "Dadurch entstehen viele kleine Lücken"
+                ]
+            },
+            {
+                "Frage": "Was ist das Buddy-Verfahren nach Donald Ervin Knuth?",
+                "Antwort": [
+                    "Das Verfahren ist komplex, vermeidet aber Verschnitt",
+                    "Zu Beginn gibt es nur einen Block, der den gesamten Speicher abdeckt",
+                    "Wenn ein Prozess eine bestimmte Menge Speicher anfordert, wird auf die nächsthöhere Zweierpotenz aufgerundet",
+                    "Der entsprechende Block wird gesucht und dem Prozess zugewiesen",
+                    "Es wird geprüft, ob zwei durch Teilung entstandene Buddies gleicher Größe existieren, die man wieder zu einem größeren Block zusammenfassen kann"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was passiert, wenn ein Prozess im Multitasking erneut in den Speicherraum eingeladen wird?",
+                "Antwort": [
+                    "Es entsteht ein Problem mit der Speicheradressenzuweisung.",
+                    "Prozesse können nur an dieselbe Stelle im Hauptspeicher wieder eingelagert werden."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind Adresskollisionen im Multitasking und wie entstehen sie?",
+                "Antwort": [
+                    "Adresskollisionen im Multitasking sind Konflikte, die entstehen, wenn mehrere Prozesse versuchen, auf die gleiche Speicheradresse zuzugreifen.",
+                    "Sie können durch statische Bindung von Adressen entstehen."
+                ]
+            },
+            {
+                "Frage": "Was ist die Partitionierung des Speichers und wie kann sie Adresskollisionen lösen?",
+                "Antwort": [
+                    "Die Partitionierung des Speichers ist eine Methode, bei der der Speicher in verschiedene Bereiche aufgeteilt wird.",
+                    "Jeder Prozess erhält einen eigenen Bereich, wodurch Adresskollisionen vermieden werden können."
+                ]
+            },
+            {
+                "Frage": "Was ist der Unterschied zwischen statischem und dynamischem Binden und wie beeinflussen sie die Flexibilität und Leistung?",
+                "Antwort": [
+                    "Statisches Binden erfolgt beim Laden eines Programms und bleibt während der gesamten Ausführung unverändert.",
+                    "Dynamisches Binden erfolgt während der Ausführung eines Programms und kann sich ändern.",
+                    "Dynamisches Binden bietet mehr Flexibilität, kann aber die Leistung beeinträchtigen."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Warum ist zusätzlicher Massenspeicher notwendig?",
+                "Antwort": [
+                    "Aufgrund der begrenzten Speicherkapazität in CPU und RAM ist zusätzlicher Massenspeicher erforderlich."
+                ]
+            },
+            {
+                "Frage": "Was ist magnetische Aufzeichnung?",
+                "Antwort": [
+                    "Magnetische Aufzeichnung ist ein Verfahren zur Speicherung großer Datenmengen."
+                ]
+            },
+            {
+                "Frage": "Was ist die Funktion eines Festplattencontrollers?",
+                "Antwort": [
+                    "Festplattencontroller abstrahieren den physischen Aufbau der Laufwerke."
+                ]
+            },
+            {
+                "Frage": "Welche Aufgaben hat das Betriebssystem in Bezug auf Massenspeicher?",
+                "Antwort": [
+                    "Das Betriebssystem verwaltet die Dateispeicherung, Sicherheit und Zuverlässigkeit der Lese- und Schreibvorgänge."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Wie ist eine HDD aufgebaut?",
+                "Antwort": [
+                    "Eine HDD besteht aus starr angebrachten Speicherplatten mit Schreib-/Leseköpfen."
+                ]
+            },
+            {
+                "Frage": "Was ermöglicht die CHS-Information?",
+                "Antwort": [
+                    "Die CHS-Information ermöglicht eine eindeutige Lokalisierung von Sektoren auf Festplatten."
+                ]
+            },
+            {
+                "Frage": "Was macht die Betriebssystemsteuerung in Bezug auf eine HDD?",
+                "Antwort": [
+                    "Die Betriebssystemsteuerung verwaltet die Speicherplatzvergabe."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die Vorteile von Flash-Speichern im Vergleich zu HDDs?",
+                "Antwort": [
+                    "Bessere Leistung",
+                    "Höhere Haltbarkeit"
+                ]
+            },
+            {
+                "Frage": "Wie funktioniert die Datenaktualisierung bei SSDs?",
+                "Antwort": [
+                    "Komplexes Aktualisieren von Daten in Blöcken"
+                ]
+            },
+            {
+                "Frage": "Was sind Garbage Collection und TRIM in Bezug auf SSDs?",
+                "Antwort": [
+                    "Sie dienen zur Optimierung der SSD-Leistung",
+                    "Sie erhöhen die Lebensdauer der SSD"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist der Zusammenhang zwischen Speichereffizienz, Zugriffsmöglichkeit, Geschwindigkeit und Kosten?",
+                "Antwort": [
+                    "Es besteht ein direkter Zusammenhang zwischen Speichereffizienz, Zugriffsmöglichkeit, Geschwindigkeit und Kosten. Je effizienter der Speicher, desto schneller und einfacher ist der Zugriff, was jedoch oft mit höheren Kosten verbunden ist."
+                ]
+            },
+            {
+                "Frage": "Was sind die verschiedenen Adressbildungsmethoden im Zusammenhang mit Multitasking?",
+                "Antwort": [
+                    "Im Zusammenhang mit Multitasking gibt es verschiedene Adressbildungsmethoden, die eine effiziente Verwaltung ermöglichen."
+                ]
+            },
+            {
+                "Frage": "Was sind die Alternativen zu mechanischen Magnetplatten als Massenspeicherarten?",
+                "Antwort": [
+                    "Eine Alternative zu mechanischen Magnetplatten als Massenspeicherarten sind Solid-State-Drives (SSDs)."
+                ]
+            },
+            {
+                "Frage": "Wie präsentiert das Betriebssystem die verschiedenen Massenspeicherarten für den Anwender?",
+                "Antwort": [
+                    "Das Betriebssystem präsentiert die verschiedenen Massenspeicherarten (mechanische Magnetplatten und SSDs) auf die gleiche Weise für den Anwender."
+                ]
+            }
+        ]
+    }
+]

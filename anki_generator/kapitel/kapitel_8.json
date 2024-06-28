@@ -1,0 +1,280 @@
+[
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was bedeutet die Abkürzung API in der Programmierung?",
+            "Antwort": [
+                "API steht für Application Programming Interface."
+            ]
+        },
+        {
+            "Frage": "Was ist eine API in der Programmierung?",
+            "Antwort": [
+                "Eine API ist eine Reihe von Protokollen und Werkzeugen für die Erstellung von Software."
+            ]
+        },
+        {
+            "Frage": "Welche Funktionen bietet eine API für Windows-Entwickler?",
+            "Antwort": [
+                "Systemfunktionen",
+                "Dateiverwaltung",
+                "Netzwerkverbindung",
+                "Hardware-Interaktion"
+            ]
+        },
+        {
+            "Frage": "Was ermöglicht eine API in Bezug auf die Integration zwischen verschiedenen Anwendungen?",
+            "Antwort": [
+                "Eine API ermöglicht die Integration zwischen verschiedenen Anwendungen."
+            ]
+        },
+        {
+            "Frage": "Wie kann eine Wetter-App eine API nutzen?",
+            "Antwort": [
+                "Eine Wetter-App kann eine API nutzen, um Daten schöner darzustellen."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Wo können APIs eingesetzt werden?",
+            "Antwort": [
+                "In Programmen",
+                "In Client-Server",
+                "In Webanwendungen"
+            ]
+        },
+        {
+            "Frage": "Wie werden APIs unterschieden?",
+            "Antwort": [
+                "Funktionsorientiert (Dynamic Link Library)",
+                "Dateiorientiert (Gerätedateien)",
+                "Objektorientiert (ActiveX-DLL)",
+                "Protokollorientiert (FTP/IFP)"
+            ]
+        },
+        {
+            "Frage": "Was ermöglicht die Windows API?",
+            "Antwort": [
+                "Zugriff auf Funktionen von Windows"
+            ]
+        },
+        {
+            "Frage": "Auf welchen Windows-Versionen können mit Windows API erstellte Anwendungen ausgeführt werden?",
+            "Antwort": [
+                "Auf jeder Windows-Version"
+            ]
+        },
+        {
+            "Frage": "Unter welchen Programmiersprachen ist die Windows API nutzbar?",
+            "Antwort": [
+                "C",
+                "C++",
+                "#"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist die Funktion einer Server-Client-API?",
+            "Antwort": [
+                "Ermöglicht die Kommunikation zwischen Server und einem oder mehreren Clients",
+                "Der Server ist der Anbieter von Daten/Ressourcen",
+                "Der Client nutzt oder fordert Daten an"
+            ]
+        },
+        {
+            "Frage": "Was ermöglicht die API dem Client über das Netzwerk zu tun?",
+            "Antwort": [
+                "Daten anfordern",
+                "Aktionen einleiten"
+            ]
+        },
+        {
+            "Frage": "Was ermöglicht die API dem Server?",
+            "Antwort": [
+                "Zugriff auf Online-Dienste"
+            ]
+        },
+        {
+            "Frage": "Was ist eine Datenbank-API?",
+            "Antwort": [
+                "Eine spezielle Art von API, die den Zugriff auf eine Datenbank ermöglicht"
+            ]
+        },
+        {
+            "Frage": "Was ist eine RPC-API?",
+            "Antwort": [
+                "Remote Procedure Call API, ermöglicht das Aufrufen von Funktionen auf einem anderen System, als ob sie lokal wären"
+            ]
+        },
+        {
+            "Frage": "Welche API bietet PHP für DBMS MySQL?",
+            "Antwort": [
+                "PHP bietet verschiedene APIs für das Datenbankmanagementsystem MySQL"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was bedeutet REST in REST API?",
+            "Antwort": [
+                "REST steht für Representational State Transfer."
+            ]
+        },
+        {
+            "Frage": "Was sind Restful Webdienste?",
+            "Antwort": [
+                "Restful Webdienste sind Webdienste, die den Rest-Architekturstil verwenden."
+            ]
+        },
+        {
+            "Frage": "Welche Regeln verwenden Restful Webdienste?",
+            "Antwort": [
+                "Restful Webdienste verwenden einen einheitlichen und vordefinierten Satz von Regeln."
+            ]
+        },
+        {
+            "Frage": "Welche Einschränkungen gibt es durch die Rest-Architektur?",
+            "Antwort": [
+                "Die Rest-Architektur legt bestimmte Einschränkungen fest, um die Einheitlichkeit und Effizienz der Webdienste zu gewährleisten."
+            ]
+        },
+        {
+            "Frage": "Was bedeutet es, dass eine Rest API zustandslos ist?",
+            "Antwort": [
+                "Eine zustandslose API speichert keine Informationen über den vorherigen Zustand des Clients. Jede Anfrage ist unabhängig von den anderen."
+            ]
+        },
+        {
+            "Frage": "Was bedeutet es, dass eine Rest API zwischenspeicherfähig ist?",
+            "Antwort": [
+                "Eine zwischenspeicherfähige API ermöglicht das Speichern von Antworten auf Anfragen, um zukünftige, identische Anfragen schneller zu bearbeiten."
+            ]
+        },
+        {
+            "Frage": "Was ist die Client-Server-Struktur in einer Rest API?",
+            "Antwort": [
+                "In einer Client-Server-Struktur sendet der Client eine Anfrage an den Server, der die Anfrage bearbeitet und eine Antwort zurücksendet."
+            ]
+        },
+        {
+            "Frage": "Was ist ein mehrschichtiges System in einer Rest API?",
+            "Antwort": [
+                "Ein mehrschichtiges System in einer Rest API bedeutet, dass die Anwendung in mehrere Schichten unterteilt ist, die jeweils bestimmte Aufgaben erfüllen."
+            ]
+        },
+        {
+            "Frage": "Was bedeutet 'Code auf Abruf' in einer Rest API?",
+            "Antwort": [
+                "'Code auf Abruf' bedeutet, dass eine Rest API in der Lage ist, Code zu liefern, der auf dem Client ausgeführt werden kann."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist eine einheitliche Schnittstelle?",
+            "Antwort": [
+                "Es ermöglicht eine einheitliche Interaktion mit dem Server",
+                "Es ist unabhängig von Gerät oder Anwendungen",
+                "Es ist ressourcenbasiert"
+            ]
+        },
+        {
+            "Frage": "Wie werden Ressourcen in einer einheitlichen Schnittstelle behandelt?",
+            "Antwort": [
+                "Ressourcen werden in Anfragen identifiziert",
+                "Manipulation von Ressourcen erfolgt durch Repräsentation"
+            ]
+        },
+        {
+            "Frage": "Was sind die Merkmale der Nachrichten in einer einheitlichen Schnittstelle?",
+            "Antwort": [
+                "Die Nachrichten sind selbstbeschreibend"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was bedeutet es, wenn ein System zustandslos ist?",
+            "Antwort": [
+                "Der Zustand muss in der Anfrage enthalten sein",
+                "Der Server speichert nichts von der Sitzung",
+                "Der Client muss alle Informationen in Header und URL angeben"
+            ]
+        },
+        {
+            "Frage": "Was ist die Funktion der Zwischenspeicherung in einem Client-Server-System?",
+            "Antwort": [
+                "Die Zwischenspeicherung macht einige Client-Server-Interaktionen überflüssig",
+                "Der Server gibt bei der Antwort an, ob und wie lange gespeichert werden soll"
+            ]
+        },
+        {
+            "Frage": "Wie funktioniert die Interaktion zwischen Client und Server?",
+            "Antwort": [
+                "Der Client fordert Ressourcen an",
+                "Der Server hält die Ressourcen bereit",
+                "Beide Instanzen laufen unabhängig voneinander"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist ein mehrschichtiges System?",
+            "Antwort": [
+                "Es handelt sich um eine Anwendungsarchitektur, die aus mehreren Schichten besteht."
+            ]
+        },
+        {
+            "Frage": "Was weiß jede Schicht in einem mehrschichtigen System?",
+            "Antwort": [
+                "Jede Schicht weiß nur von der unmittelbaren Schicht."
+            ]
+        },
+        {
+            "Frage": "Was kann in einem mehrschichtigen System zwischen Client und Endserver vergeben werden?",
+            "Antwort": [
+                "Es können viele Zwischenserver zwischen Client und Endserver vergeben werden."
+            ]
+        },
+        {
+            "Frage": "Welche Vorteile bietet ein mehrschichtiges System?",
+            "Antwort": [
+                "Es kann die Systemverfügbarkeit verbessern, Lastausgleich ermöglichen und einen gemeinsamen Cache bereitstellen."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was sind die Regeln für die Endung einer URL in einer REST-API?",
+            "Antwort": [
+                "Die URL sollte mit einem Substantiv enden, z.B. /api/users"
+            ]
+        },
+        {
+            "Frage": "Welche Methoden werden in einer REST-API verwendet, um Aktionen zu identifizieren?",
+            "Antwort": [
+                "GET",
+                "PUT",
+                "POST",
+                "DELETE"
+            ]
+        }
+    ]
+}
+]

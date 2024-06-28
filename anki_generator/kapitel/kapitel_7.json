@@ -1,0 +1,198 @@
+[
+{
+    "Karteikarten": [
+        {
+            "Frage": "Wer hat die grafische Benutzeroberfläche entwickelt und wann?",
+            "Antwort": [
+                "Die grafische Benutzeroberfläche wurde 1981 von Alan Kay und einer Gruppe anderer Forscher entwickelt."
+            ]
+        },
+        {
+            "Frage": "Welche Rolle spielte Steve Jobs in der Entwicklung der grafischen Benutzeroberfläche?",
+            "Antwort": [
+                "Steve Jobs sah die Möglichkeit, einen benutzerfreundlichen PC zu entwickeln. Dies führte zur Ankündigung des Apple Macintosh im Jahr 1981."
+            ]
+        },
+        {
+            "Frage": "Wer hat Windows erfunden und was war es ursprünglich?",
+            "Antwort": [
+                "Microsoft hat Windows erfunden. Ursprünglich war Windows eine grafische Umgebung auf 16-Bit MS-DOS."
+            ]
+        },
+        {
+            "Frage": "Was sind die aktuellen Versionen von Windows und wie sind sie entstanden?",
+            "Antwort": [
+                "Die aktuellen Versionen von Windows sind Nachkommen von Windows NT, das vollständig auf 32-Bit neu geschrieben wurde."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Unterstützen alle Unix-Systeme ein Fenstersystem?",
+            "Antwort": [
+                "Ja, alle Unix-Systeme unterstützen ein Fenstersystem."
+            ]
+        },
+        {
+            "Frage": "Was sind die grundlegenden Funktionen eines Fenstersystems?",
+            "Antwort": [
+                "Es verwaltet grundlegende Fenster.",
+                "Es ermöglicht das Erstellen von Fenstern mit der Maus.",
+                "Es ermöglicht das Löschen von Fenstern.",
+                "Es ermöglicht das Verschieben von Fenstern.",
+                "Es ermöglicht das Verändern der Größe von Fenstern."
+            ]
+        },
+        {
+            "Frage": "Was ermöglicht das Fenstersystem für Unix-Systeme?",
+            "Antwort": [
+                "Es ermöglicht für Unix-Systeme ein Aussehen und eine Bedienung ähnlich wie bei Mac oder Windows."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist die Funktion von Elementen grafischer Bedienung im Frontend?",
+            "Antwort": [
+                "Sie geben Funktionen im Frontend benutzerfreundlich wieder",
+                "Sie helfen, die alltägliche Arbeit zu vereinfachen"
+            ]
+        },
+        {
+            "Frage": "Warum sind Symbole und Bilder in der grafischen Bedienung wichtig?",
+            "Antwort": [
+                "Sie ermöglichen eine universelle und textunabhängige Arbeit"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist ein Widget?",
+            "Antwort": [
+                "Ein Element, das Informationen anzeigt",
+                "Bietet dem Benutzer Möglichkeiten zur Interaktion mit der Anwendung oder dem Betriebssystem",
+                "Ein mit einem Fenster assoziiertes Objekt"
+            ]
+        },
+        {
+            "Frage": "Was ist ein Icon?",
+            "Antwort": [
+                "Eine Komponente von GUI-Betriebssystemen",
+                "Hilft dem Benutzer, den Dateityp zu identifizieren"
+            ]
+        },
+        {
+            "Frage": "Welche Arten von Icons gibt es?",
+            "Antwort": [
+                "System-Icons",
+                "Verknüpfungs-Icons",
+                "Programmordner-/Dokumentensymbole"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist eine Event-Loop im Kontext von Event-Handling?",
+            "Antwort": [
+                "Es ist eine Schleife, die innerhalb des GUI-Threads läuft",
+                "Sie wartet auf erzeugte Ergebnisse",
+                "Sie ermöglicht es dem Benutzer, Aktionen in beliebiger Reihenfolge auszuführen"
+            ]
+        },
+        {
+            "Frage": "Wie verarbeiten die meisten GUI Benutzerinteraktionen?",
+            "Antwort": [
+                "Die meisten GUIs verwenden Event-Loops, um Benutzerinteraktionen zu verarbeiten"
+            ]
+        },
+        {
+            "Frage": "Welche verschiedenen Eingabestrategien sollten in Betracht gezogen werden beim Event-Handling?",
+            "Antwort": [
+                "Maus",
+                "Tastatur",
+                "Touch"
+            ]
+        },
+        {
+            "Frage": "Wer stellt einige Technologien für Event-Handling bereit?",
+            "Antwort": [
+                "Einige Technologien werden vom Betriebssystem bereitgestellt"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was bedeutet es, dass der Benutzer ein nicht bestimmbares Element bedienen kann?",
+            "Antwort": [
+                "Es bedeutet, dass der Benutzer jederzeit mit einem Element interagieren kann, unabhängig von den Aktionen des Programms."
+            ]
+        },
+        {
+            "Frage": "Wie kann das Programm Reaktionen unabhängig bereitstellen?",
+            "Antwort": [
+                "Das Programm kann Reaktionen unabhängig bereitstellen, indem es eine Callback-Funktion verwendet."
+            ]
+        },
+        {
+            "Frage": "Was ist eine Callback-Funktion?",
+            "Antwort": [
+                "Eine Callback-Funktion ist eine Funktion, die zu einem späteren Zeitpunkt ausgeführt wird, nachdem ein bestimmtes Ereignis eingetreten ist."
+            ]
+        },
+        {
+            "Frage": "Wie verarbeitet eine Funktion ein Ereignis?",
+            "Antwort": [
+                "Eine Funktion verarbeitet ein Ereignis, indem sie auf das Ereignis reagiert und entsprechende Aktionen ausführt."
+            ]
+        },
+        {
+            "Frage": "Was ist die Rolle des Window-Managers in einer grafischen Oberfläche?",
+            "Antwort": [
+                "Der Window-Manager ist verantwortlich für die Platzierung von Fenstern in der grafischen Oberfläche. Er ermöglicht das Vergrößern, Schließen, Öffnen und Verschieben von Fenstern."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Warum ist die Entwicklung grafischer Anwendungen aufwendiger als die Entwicklung von CLI?",
+            "Antwort": [
+                "Die Entwicklung grafischer Anwendungen erfordert die Anordnung von grafischen Steuerelementen, was aufwendiger ist als die Arbeit mit einer Befehlszeilenschnittstelle (CLI)."
+            ]
+        },
+        {
+            "Frage": "Wie können IDEs den Prozess der Anwendungsentwicklung in einer grafischen Oberfläche erleichtern?",
+            "Antwort": [
+                "IDEs ermöglichen das Anordnen von grafischen Steuerelementen per Drag and Drop, was den Prozess vereinfacht. Sie übernehmen auch direkt die Code-Erstellung."
+            ]
+        },
+        {
+            "Frage": "Was passiert, wenn Widgets im Quellcode manuell angepasst werden müssen?",
+            "Antwort": [
+                "Wenn Widgets im Quellcode manuell angepasst werden müssen, kann dies zeitaufwendig sein, bis alles korrekt ist. IDEs können diesen Prozess jedoch automatisieren und vereinfachen."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was sind Signale und Slots im Kontext von Widgets?",
+            "Antwort": [
+                "Signale und Slots sind Mechanismen, wie Widgets untereinander kommunizieren."
+            ]
+        }
+    ]
+}
+]

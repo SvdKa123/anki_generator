@@ -1,0 +1,128 @@
+{
+    "Fragen und Antworten": [
+        {
+            "Frage": "Was sind die Anwendungen von Batch-Dateien und Skripten?",
+            "Antwort": [
+                "Automatisierung von Routineaufgaben",
+                "Backup und Leeren von Daten",
+                "Ausführung von Netzwerkaufgaben"
+            ]
+        },
+        {
+            "Frage": "Wie hat sich das Scripting in der Unix-Shell entwickelt?",
+            "Antwort": [
+                "Pipe-Konzept",
+                "Entwicklung seit 1973",
+                "Bash, PHP, Python, Ruby im Zuge des WWW"
+            ]
+        },
+        {
+            "Frage": "Was sind die Vorteile von Skriptsprachen?",
+            "Antwort": [
+                "Einfacher als Programmiersprachen",
+                "Interpretierung statt Kompilierung",
+                "Portabilität",
+                "Alle Anweisungen in einer Datei"
+            ]
+        },
+        {
+            "Frage": "Was sind die Nachteile von Skriptsprachen?",
+            "Antwort": [
+                "Beschränkte Möglichkeiten",
+                "Weniger geeignet für komplexe Aufgaben",
+                "Unverständlicher Code im Vergleich zu modernen Sprachen"
+            ]
+        },
+        {
+            "Frage": "Welche Automatisierungswerkzeuge gibt es?",
+            "Antwort": [
+                "Bash, Cmd.exe, Powershell",
+                "GNU, Lua",
+                "VBScript, JScript",
+                "Windows Powershell für .NET"
+            ]
+        },
+        {
+            "Frage": "Wie werden Skriptsprachen in Webservern eingesetzt?",
+            "Antwort": [
+                "Perl als erste Skriptsprache",
+                "PHP am verbreitetsten",
+                "Python-Anbindung an Webserver"
+            ]
+        },
+        {
+            "Frage": "Was sind Shell-Skripte in Unix und Linux?",
+            "Antwort": [
+                "Textdatei mit Befehlsfolge",
+                "CLI-Ausführung",
+                "Zeilenweise Abarbeitung",
+                "Vorverarbeitung, Substitution",
+                "Shellvariablen, arithmetische Ausdrücke",
+                "Wildcards für Dateinamen"
+            ]
+        },
+        {
+            "Frage": "Was sind Shell-Befehle?",
+            "Antwort": [
+                "Interne und externe Befehle",
+                "Interne vordefiniert",
+                "Externe als ausführbare Dateien"
+            ]
+        },
+        {
+            "Frage": "Was sind Shell-Variablen?",
+            "Antwort": [
+                "Funktion ähnlich wie in anderen Sprachen",
+                "Kontextsensitive Interpretation",
+                "Explizites Setzen und Lesen",
+                "Herausgabe durch $-Zeichen"
+            ]
+        },
+        {
+            "Frage": "Was sind Metazeichen und Kontrollstrukturen in Shell-Skripten?",
+            "Antwort": [
+                "Metazeichen trennen Wörter",
+                "Kontrollstrukturen wie 'if', 'then', 'else'",
+                "Schleifen 'for', 'until', 'while'"
+            ]
+        },
+        {
+            "Frage": "Wie ist die Syntax und Befehle in Powershell?",
+            "Antwort": [
+                "Syntaxstruktur",
+                "Beispielbefehle",
+                "Parameterverwendung"
+            ]
+        },
+        {
+            "Frage": "Was ist Pipelining in PowerShell?",
+            "Antwort": [
+                "Reihe von Befehlen",
+                "Eingabe-Ausgabe-Kette"
+            ]
+        },
+        {
+            "Frage": "Wie funktioniert die Dateiausgabe in PowerShell?",
+            "Antwort": [
+                "Verschiedene Cmdlets",
+                "Add-Content, Clear-Content, Get-Content, Set-Content",
+                "Cmdlet 'Out-File'",
+                "Encoding, Umleitungsoperatoren"
+            ]
+        },
+        {
+            "Frage": "Welche Einsatzmöglichkeiten hat die Microsoft Powershell?",
+            "Antwort": [
+                "Lokale Serververwaltung",
+                "Remoting-Fähigkeiten"
+            ]
+        },
+        {
+            "Frage": "Was sind Automatisierungsplattformen?",
+            "Antwort": [
+                "Skript-Module für Plattformverwaltung",
+                "Unterstützung verschiedener Plattformen"
+            ]
+        }
+    ]
+}

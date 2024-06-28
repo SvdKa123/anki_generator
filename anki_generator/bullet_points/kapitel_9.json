@@ -1,0 +1,155 @@
+{
+  "Wie werden Shellvariablen und arithmetische Ausdrücke in Unix und Linux Shell-Skripten behandelt?": [
+    "Shellvariablen ersetzt durch aktuellen Wert",
+    "Arithmetische Ausdrücke werden berechnet"
+  ],
+  "Was bedeutet der Begriff 'Dateinamen aus Wildcards' in Unix und Linux Shell-Skripten?": [
+    "Verwendung von Wildcards (wie * und ?) für Dateinamen/Muster"
+  ],
+  "Was sind Shell-Befehle?": [
+    "Können intern oder extern sein"
+  ],
+  "Was sind interne Shell-Befehle?": [
+    "Vordefinierte Befehle des Kommando-Interpreters"
+  ],
+  "Was sind externe Shell-Befehle?": [
+    "Ausführbare Dateien, erreichbar über Suchpfad"
+  ],
+  "Was ist der Sinn von Shell-Variablen in der Programmierung?": [
+    "Ähnliche Funktion wie Variablen in anderen Programmiersprachen"
+  ],
+  "Wie wird die Interpretation von Shellvariablen durchgeführt?": [
+    "Kontextsensitive Interpretation"
+  ],
+  "Wie können Shell-Variablen gesetzt werden?": [
+    "Explizites Setzen möglich",
+    "Lesen von der Kommandozeile",
+    "Extraktion aus Umgebungsvariablen"
+  ],
+  "Wie werden Shell-Variablen herausgegeben?": [
+    "Herausgabe durch $-Zeichen"
+  ],
+  "Was sind Metazeichen und wie werden sie verwendet?": [
+    "Zeichen ohne Anführungszeichen, trennen Wörter",
+    "Beinhalten Leerzeichen, Tabulatoren, Zeilenumbrüche"
+  ],
+  "Was sind einige Beispiele für Kontrollstrukturen?": [
+    "'if', 'then', 'else', 'case'",
+    "'for loop', 'until loop', 'while loop'"
+  ],
+  "Was ist die generelle Syntax in Powershell?": [
+    "Beginnt mit Befehlsnamen",
+    "-<Required Parameter Name>-<Required Parameter Value>",
+    "Optional: <Optional Parameter Name> <Optional Parameter Value>"
+  ],
+  "Was ist ein Beispiel für einen Befehl in Powershell?": [
+    "Beispiel: 'Get-Childitem'",
+    "Alias: 'gei'"
+  ],
+  "Was sind Parameter in Powershell?": [
+    "Optionen für Befehlsfunktion",
+    "Parameter Namen beginnen mit Bindestrich"
+  ],
+  "Was ist ein Parameterwert?": [
+    "Wert, den ein Parameter benötigt",
+    "Dargestellt durch .NET-Typ in Syntaxdiagramm"
+  ],
+  "Was sind Cmdlets und wie sind sie strukturiert?": [
+    "Einfache Befehle",
+    "Namensschema Verb-Substantiv (z.B. Get-PSD-Drive, Set-Location)",
+    "Aufgabenorientiert durch vorangestelltes Verb"
+  ],
+  "Was sind Aliase in Bezug auf Cmdlets?": [
+    "Alternative Namen für Cmdlets"
+  ],
+  "Was ist die Bedeutung der Objektorientierung in der Programmierung?": [
+    "Ergebnisse strukturiert als Objekt",
+    "Vereinfacht Zugriff auf Attribute"
+  ],
+  "Was sollte man über Ausgabe und Formatierung wissen?": [
+    "Spezifische Details, nicht in Stichpunkten zusammenfassbar",
+    "Nachschlagen im Skript empfohlen"
+  ],
+  "Was sollte man über Kontrollstrukturen wissen?": [
+    "Spezifische Details, nicht in Stichpunkten zusammenfassbar",
+    "Nachschlagen im Skript empfohlen"
+  ],
+  "Was ist Pipelining?": [
+    "Reihe von Befehlen",
+    "Verbunden mit Pipeline-Operatoren"
+  ],
+  "Wie funktioniert Pipelining?": [
+    "Sendet Ergebnisse des vorherigen Befehls als Eingabe an nächsten Befehl"
+  ],
+  "Was ist eine komplexe Befehlskette oder Pipeline?": [
+    "Reihe von Befehlen, verbunden durch Pipeline-Operatoren",
+    "Ergebnis eines Befehls dient als Eingabe für nächsten Befehl"
+  ],
+  "Was sind die vier Möglichkeiten der Dateiausgabe in PowerShell?": [
+    "Verwendung von Content und Let's cmdlets",
+    "Verwendung von Out-File cmdlets",
+    "Verwendung des Redirection-Operators",
+    "Verwendung von .NET-Klassen"
+  ],
+  "Was sind die vier Content cmdlets zur Ausgabe in eine Datei?": [
+    "Add-Content",
+    "Clear-Content",
+    "Get-Content",
+    "Set-Content"
+  ],
+  "Was macht das Add-Content cmdlet in PowerShell?": [
+    "Fügt Inhalt am Ende einer Datei hinzu"
+  ],
+  "Was macht das Clear-Content cmdlet in PowerShell?": [
+    "Löscht Inhalt einer Datei, ohne die Datei zu löschen"
+  ],
+  "Was macht das Get-Content cmdlet in PowerShell?": [
+    "Liest den Inhalt einer Datei"
+  ],
+  "Was macht das Set-Content cmdlet in PowerShell?": [
+    "Ersetzt den Inhalt einer Datei"
+  ],
+  "Was passiert, wenn Cmdlets ein Objekt anstelle einer Zeichenfolge übergeben wird?": [
+    "Konvertierung des Objekts mit 'To String()' Methode vor dem Speichern"
+  ],
+  "Was macht das Cmdlet 'Out-File'?": [
+    "Sendet Ausgabe an eine Datei",
+    "Verwendet Formatierungssystem",
+    "Parameter 'Encoding' für Kodierung der Ausgabe",
+    "Standardmäßig UTF-8 Kodierung"
+  ],
+  "Was sind Umleitungsoperatoren in Bezug auf Cmdlets?": [
+    "Leiten Ausgabe von Cmdlets an andere Orte um",
+    "Beispiel: 'Out-File'"
+  ],
+  "Was macht der Umleitungsoperator 'Out-File Append'?": [
+    "Fügt Ausgabe am Ende einer bestehenden Datei an"
+  ],
+  "Was sind die Einsatzmöglichkeiten der Microsoft Powershell für lokale Konten?": [
+    "Erstellen von Benutzerkonten",
+    "Verwaltung von lokalen Windows-Benutzerkonten",
+    "Verwaltung von Microsoft-Konten",
+    "Verwaltung von Azure Active Directory Konten"
+  ],
+  "Was sind die Möglichkeiten der Powershell für Remoting?": [
+    "Ausführen von Befehlen auf Remote Computern",
+    "Integrierter Computer Name"
+  ],
+  "Was sind Automatisierungsplattformen?": [
+    "Skript-Module zur Verwaltung verschiedener Plattformen"
+  ],
+  "Welche Plattformen können mit Automatisierungsplattformen verwaltet werden?": [
+    "Microsoft Azure",
+    "Windows Exchange",
+    "SQL",
+    "Drittanbieter",
+    "AWS",
+    "VMware",
+    "Google Cloud"
+  ],
+  "Was sind Beispiele für Drittanbieter-Plattformen, die mit Automatisierungsplattformen verwaltet werden können?": [
+    "AWS",
+    "VMware",
+    "Google Cloud"
+  ]
+}

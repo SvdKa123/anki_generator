@@ -1,0 +1,19 @@
+{
+    "Was ist ein Embedded System?": "Ein mikroprozessor-geschütztes System Steuerung einer oder mehrerer Funktionen Kombination aus Computerhardware und Software Hat eine bestimmte Funktion Kann innerhalb größerer Systeme existieren",
+    "Kann ein Embedded System eine grafische Benutzeroberfläche (GUI) haben?": "Ja, aber bei Geräten mit einer Funktion kann die GUI entfallen",
+    "Aus welchen Komponenten besteht ein Embedded System?": "Prozessor mit geringem Stromverbrauch Geringe Stromversorgung Speicher Kommunikationsanschlüsse",
+    "Was prägt das Betriebssystem eines Embedded Systems?": "Die Funktionalität des Systems prägt das Betriebssystem.",
+    "Welche Optimierung ist für ein Embedded System notwendig?": "Die Hardware-Ressourcen müssen optimiert werden.",
+    "Welche Zuverlässigkeitsanforderung hat ein Embedded System?": "Das System muss zuverlässig sein.",
+    "Welche Anforderung hat ein Embedded System an den Speicher?": "Der Speicher muss stets funktionieren.",
+    "Welche Energieanforderung hat ein Embedded System?": "Das System muss stromsparend sein.",
+    "Wie sollte ein Embedded System auf den Anwendungsfall zugeschnitten sein?": "Es sollte maßgeschneidert auf den Anwendungsfall sein.",
+    "Was sind Beispiele für Embedded Systems in Autos?": "Geschwindigkeitsreglung Rückfahrsensoren Navigationssysteme",
+    "Welche Embedded Systems sind in Smartphones zu finden?": "Betriebssystem Kamera Anschluss von Massenspeicher",
+    "Welche Embedded Systems sind in Industrierobotern zu finden?": "Sensoren Überwachungsfunktion Steuerungsfunktion",
+    "Was bedeutet die Abkürzung GPIO?": "GPIO steht für 'General Purpose Input/Output'.",
+    "Wofür wird GPIO verwendet?": "GPIO wird verwendet, um sich mit anderen Geräten wie Sensoren, Dioden und Displays zu verbinden.",
+    "Wie viele programmierbare Eingangs-/Ausgangskontakte hat ein GPIO?": "Ein GPIO hat mehrere programmierbare Eingangs-/Ausgangskontakte, die Anzahl kann jedoch variieren.",
+    "Wie wird GPIO in der Steuerung und Anwendungsentwicklung eingesetzt?": "GPIO wird in der Steuerung und Anwendungsentwicklung eingesetzt, um Messwerte zu überwachen und durch Programmierung Schwellwerte auszulösen.",
+    "Was ist für die Nutzung von GPIO erforderlich?": "Für die Nutzung von GPIO ist lediglich die Einbindung einer speziellen Bibliothek erforderlich."
+}

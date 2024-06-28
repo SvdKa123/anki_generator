@@ -1,0 +1,425 @@
+[
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was sind die Hauptkomponenten eines Dateisystems?",
+            "Antwort": [
+                "Dateisysteme werden auf Partitionen eingerichtet",
+                "Sie nutzen Verzeichnisse, um Dateien zu strukturieren",
+                "In Dateien befinden sich zu speichernden Daten in Blöcken",
+                "Dateien sind die kleinste verwaltete Einheiten eines Dateisystems"
+            ]
+        },
+        {
+            "Frage": "Was sind die Bestandteile eines Dateisystems?",
+            "Antwort": [
+                "Name",
+                "Typ",
+                "Ortsinformationen",
+                "Größe",
+                "Zeitstempel",
+                "Rechte",
+                "Eigentümer"
+            ]
+        },
+        {
+            "Frage": "Was ist der Zweck des Namens in einem Dateisystem?",
+            "Antwort": [
+                "Es ist ein symbolischer Name",
+                "Es ist vom Benutzer lesbar/interpretierbar",
+                "Beispiel: AUTOEXEC.BAT"
+            ]
+        },
+        {
+            "Frage": "Was ist der Zweck des Typs in einem Dateisystem?",
+            "Antwort": [
+                "Es dient zur Unterscheidung verschiedener Dateitypen",
+                "Beispiel: sequentielle Datei, zeichenorientierte Datei"
+            ]
+        },
+        {
+            "Frage": "Was sind Ortsinformationen in einem Dateisystem?",
+            "Antwort": [
+                "Sie zeigen, wo die Dateien physisch gespeichert sind",
+                "Beinhaltet Gerätenummer, Nummern und Plattenblöcke"
+            ]
+        },
+        {
+            "Frage": "Was ist der Zweck der Größe in einem Dateisystem?",
+            "Antwort": [
+                "Es zeigt die Länge der Datei in Größeneinheiten",
+                "Es steht in engem Zusammenhang mit Ortsinformationen",
+                "Es wird zum Prüfen der Dateigrenzen benötigt, z.B. zum Lesen",
+                "Beinhaltet Bytes und Blöcke"
+            ]
+        },
+        {
+            "Frage": "Was ist der Zweck des Zeitstempels in einem Dateisystem?",
+            "Antwort": [
+                "Es zeigt Zeit und Datum der Erstellung",
+                "Es unterstützt Backups",
+                "Es unterstützt Entwicklungswerkzeuge",
+                "Es unterstützt Benutzerüberwachung"
+            ]
+        },
+        {
+            "Frage": "Was sind die Rechte in einem Dateisystem?",
+            "Antwort": [
+                "Sie sind Zugriffsrechte",
+                "Beinhaltet Lese-, Schreibberechtigungen",
+                "Kann nur für Eigentümer schreibbar sein, für andere Benutzer nur lesbar"
+            ]
+        },
+        {
+            "Frage": "Was ist der Zweck des Eigentümers in einem Dateisystem?",
+            "Antwort": [
+                "Es ist eng mit Rechten verknüpft",
+                "Es wird für die Zuordnung beim Accounting verwendet"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Welche zwei großen Dateisysteme gibt es unter Microsoft Windows?",
+            "Antwort": [
+                "FAT",
+                "NTFS"
+            ]
+        },
+        {
+            "Frage": "Woher stammt das FAT Dateisystem und welche Erweiterung hat es?",
+            "Antwort": [
+                "FAT wurde von altem DOS geerbt",
+                "Die spätere Erweiterung ist exFAT"
+            ]
+        },
+        {
+            "Frage": "Welches Dateisystem wird von den meisten modernen Versionen des Betriebssystems Microsoft Windows verwendet?",
+            "Antwort": [
+                "NTFS"
+            ]
+        },
+        {
+            "Frage": "Was ist das ReFS Dateisystem und wann wurde es eingeführt?",
+            "Antwort": [
+                "ReFS wurde von Microsoft als Format für Windows Server ab 2012 eingeführt"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist FAT (File Allocation Table)?",
+            "Antwort": [
+                "Es ist der einfachste Dateisystem-Typ",
+                "Besteht aus FS-Deskriptorsektor, Blockzuordnungstabelle und reinem Speicherplatz für Daten",
+                "Dateien in FAT werden in Verzeichnissen gespeichert"
+            ]
+        },
+        {
+            "Frage": "Was ist ein FS-Deskriptorsektor?",
+            "Antwort": [
+                "Es ist auch als Bootsektor oder Superblock bekannt"
+            ]
+        },
+        {
+            "Frage": "Was ist eine Blockzuordnungstabelle?",
+            "Antwort": [
+                "Es ist auch als File Allocation Table bekannt",
+                "Enthält ein Array von Blockdeskriptoren",
+                "Wert = 0 bedeutet, dass der Block nicht verwendet wird",
+                "Wert != 0 bezieht sich auf den nächsten Block oder das Ende"
+            ]
+        },
+        {
+            "Frage": "Was bedeuten die Zahlen in FAT12, FAT16 und FAT32?",
+            "Antwort": [
+                "Sie beziehen sich auf die Anzahl der Bits zur Adressierung eines FS-Blocks"
+            ]
+        },
+        {
+            "Frage": "Wann wird FAT32 verwendet?",
+            "Antwort": [
+                "Auf Windows-kompatiblen externen Speichern oder Festplattenpartitionen mit einer Größe von weniger als 32GB",
+                "Mit dem internen Windows-Tool von Microsoft kann es bis zu 2TB formatiert werden",
+                "Mit externen Tools ist es unlimitiert"
+            ]
+        },
+        {
+            "Frage": "Was ist die Einschränkung von FAT32?",
+            "Antwort": [
+                "Das Dateisystem erlaubt nicht die Erstellung von Dateien größer als 4GB"
+            ]
+        },
+        {
+            "Frage": "Was wurde eingeführt, um die Einschränkung von FAT32 zu überwinden?",
+            "Antwort": [
+                "exFAT wurde eingeführt, um die Einschränkung von FAT32 zu überwinden"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist das NTFS Dateisystem und wo wird es hauptsächlich verwendet?",
+            "Antwort": [
+                "NTFS ist das am weitesten verbreitete Dateisystem für Endbenutzer-Computer auf Windows.",
+                "Die meisten Betriebssysteme von Windows nutzen NTFS."
+            ]
+        },
+        {
+            "Frage": "Was sind einige der Hauptfunktionen von NTFS?",
+            "Antwort": [
+                "Zugriffskontrolle",
+                "Verschlüsselung"
+            ]
+        },
+        {
+            "Frage": "Wie werden Dateien in NTFS gespeichert?",
+            "Antwort": [
+                "Jede Datei wird als Deskriptor in der Master File Table mit Dateninhalt gespeichert."
+            ]
+        },
+        {
+            "Frage": "Was sind einige der Hauptmerkmale der Master File Table in NTFS?",
+            "Antwort": [
+                "Sie enthält Informationen über die Größe, Zuordnung und den Namen jeder Datei.",
+                "Die ersten 16 Einträge der Tabelle werden für eine Bitmap verwendet, die freie und benutzte Cluster aufzeichnet.",
+                "Die erste und letzte Sektor von NTFS enthalten Einstellungen.",
+                "Sie verwendet 48- und 64-Bit-Werte um Dateien zu referenzieren.",
+                "Sie unterstützt Datenspeicher mit hoher Kapazität."
+            ]
+        },
+        {
+            "Frage": "Was ist Journaling in NTFS und warum ist es wichtig?",
+            "Antwort": [
+                "Journaling ist eine Funktion in NTFS, die es zuverlässig macht. Es zeichnet Änderungen auf, die an Dateien vorgenommen werden, bevor sie tatsächlich durchgeführt werden. Dies ermöglicht eine Wiederherstellung im Falle eines Systemausfalls."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist das Resilient File System (ReFS)?",
+            "Antwort": [
+                "Es ist die neueste Entwicklung von Microsoft",
+                "Es ist ein Dateisystem, das sich in seiner Architektur von älteren Dateisystemen unterscheidet",
+                "Es ist in Form eines B+Baum organisiert"
+            ]
+        },
+        {
+            "Frage": "Welche besonderen Eigenschaften hat das Resilient File System (ReFS)?",
+            "Antwort": [
+                "Es unterstützt hohe Fehlertoleranz",
+                "Es unterstützt Copy-on-Write (CoW)"
+            ]
+        },
+        {
+            "Frage": "Was bedeutet es, dass das Resilient File System (ReFS) Copy-on-Write (CoW) unterstützt?",
+            "Antwort": [
+                "Keine Metadaten werden geändert, ohne kopiert zu werden",
+                "Daten werden nicht über bestehende Daten überschrieben, sondern in einem anderen Bereich auf der Festplatte abgelegt",
+                "Das System erstellt eine Verknüpfung von älteren Metadaten mit der neueren Kopie"
+            ]
+        },
+        {
+            "Frage": "Welche Vorteile bietet das Resilient File System (ReFS) in Bezug auf Backups und Datenwiederherstellung?",
+            "Antwort": [
+                "Ältere Backups werden an verschiedenen Orten gespeichert",
+                "Einfache Datenwiederherstellung ist möglich, solange der Speicherplatz nicht überschrieben wurde"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was sind Dateisysteme für Linux?",
+            "Antwort": [
+                "Dateisysteme für Linux sind Methoden und Datenstrukturen, die das Betriebssystem verwendet, um Informationen auf einem Datenträger zu speichern.",
+                "Einige gängige Linux-Dateisysteme sind ext4, XFS, Btrfs und ZFS."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was sind Ext2, Ext3 und Ext4?",
+            "Antwort": [
+                "Ext2, Ext3 und Ext4 sind verschiedene Versionen des 'nativen' Linux-Ext-Dateisystems.",
+                "Sie sind Gegenstand aktiver Entwicklungen und Verbesserungen."
+            ]
+        },
+        {
+            "Frage": "Wie ist Ext3 eine Erweiterung von Ext2?",
+            "Antwort": [
+                "Ext3 ist eine Erweiterung von Ext2, die transaktionale Dateischreiboperationen mit Journal ermöglicht."
+            ]
+        },
+        {
+            "Frage": "Wie ist Ext4 eine Erweiterung von Ext3?",
+            "Antwort": [
+                "Ext4 ist eine Erweiterung von Ext3, die optimierte Dateizuordnungsinformationen (Extents) und erweiterte Dateiattribute bietet."
+            ]
+        },
+        {
+            "Frage": "In welchem Kontext werden die meisten Linux-Installationen verwendet?",
+            "Antwort": [
+                "Die meisten Linux-Installationen werden als 'Root'-System verwendet."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist ReiserFS?",
+            "Antwort": [
+                "Es ist ein alternatives Linux-Dateisystem."
+            ]
+        },
+        {
+            "Frage": "Für was ist ReiserFS optimiert?",
+            "Antwort": [
+                "Es ist für die Speicherung einer großen Anzahl kleiner Dateien optimiert."
+            ]
+        },
+        {
+            "Frage": "Wie ist die Suchfunktion von ReiserFS?",
+            "Antwort": [
+                "Es hat eine gute Suchfunktion, die durch Tails ermöglicht wird. Sehr kleine Elemente werden zusammen mit Metadaten gespeichert."
+            ]
+        },
+        {
+            "Frage": "Wird ReiserFS noch aktiv entwickelt und unterstützt?",
+            "Antwort": [
+                "Nein, es wird nicht mehr aktiv entwickelt und unterstützt."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Was ist das XFS?",
+            "Antwort": [
+                "XFS ist ein robustes Journaling-Dateisystem."
+            ]
+        },
+        {
+            "Frage": "Welche besonderen Eigenschaften hat das XFS?",
+            "Antwort": [
+                "XFS unterstützt die Speicherung sehr großer Dateien und Volumes auf einem einzigen Host."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Auf welchem Prinzip basiert BTRFS?",
+            "Antwort": [
+                "BTRFS basiert auf dem Copy-on-Write-Prinzip (COW)."
+            ]
+        },
+        {
+            "Frage": "Seit wann wird BTRFS vom Mainline-Linux-Kernel unterstützt?",
+            "Antwort": [
+                "BTRFS wird seit 2009 vom Mainline-Linux-Kernel unterstützt."
+            ]
+        },
+        {
+            "Frage": "Welche Funktionen bietet BTRFS?",
+            "Antwort": [
+                "BTRFS fungiert als Volume-Manager.",
+                "Es kann mehrere Geräte umfassen.",
+                "Es bietet eine höhere Fehltoleranz.",
+                "Es bietet eine bessere Skalierbarkeit.",
+                "Es ermöglicht eine einfachere Verwaltung."
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Wer hat das F2FS-Dateisystem entwickelt und für welches Betriebssystem ist es gedacht?",
+            "Antwort": [
+                "F2FS wurde von Samsung Electronics entwickelt",
+                "Es ist ein Linux-Dateisystem"
+            ]
+        },
+        {
+            "Frage": "Auf welcher Art von Speicher ist F2FS angepasst?",
+            "Antwort": [
+                "F2FS ist auf NAND-Flash-Speicher angepasst"
+            ]
+        },
+        {
+            "Frage": "Auf welchem Ansatz arbeitet F2FS?",
+            "Antwort": [
+                "F2FS arbeitet auf der Grundlage des log-strukturierten FS-Ansatzes (LFS)"
+            ]
+        },
+        {
+            "Frage": "Welche Eigenschaften des Flash-Speichers berücksichtigt F2FS?",
+            "Antwort": [
+                "F2FS berücksichtigt die konstante Zugriffszeit des Flash-Speichers",
+                "Es berücksichtigt auch die begrenzte Anzahl von Datenwiederbeschreibungszyklen des Flash-Speichers"
+            ]
+        }
+    ]
+},
+{
+    "Karteikarten": [
+        {
+            "Frage": "Wie wird eine Datei in einem Dateisystem identifiziert?",
+            "Antwort": [
+                "Eine Datei wird durch ihren Pfad im Dateisystem identifiziert, beginnend mit dem Stammknoten."
+            ]
+        },
+        {
+            "Frage": "Was ist ein Pfad in einem Dateisystem?",
+            "Antwort": [
+                "Ein Pfad ist die Beschreibung des Zugriffsweges zu einer Datei im Dateiverzeichnis, ausgehend vom ersten Wurzelelement (Root- oder Stammknoten)."
+            ]
+        },
+        {
+            "Frage": "Wie unterscheiden sich Windows und Unix in Bezug auf die Unterstützung von Stammknoten?",
+            "Antwort": [
+                "Windows unterstützt mehrere Stammknoten, wobei jeder Rootknoten einem Volumen zugeordnet wird (z.B. C:\\, D:\\). Unix-Betriebssysteme unterstützen hingegen nur einen Rootknoten."
+            ]
+        },
+        {
+            "Frage": "Wie wird der Rootknoten in Unix-Betriebssystemen beschrieben?",
+            "Antwort": [
+                "Der Rootknoten in Unix-Betriebssystemen wird durch eine spezielle Notation beschrieben, z.B. /home/sally/statusreport."
+            ]
+        },
+        {
+            "Frage": "Welche Schreibweise verwendet Microsoft für Pfade?",
+            "Antwort": [
+                "Microsoft verwendet den umgekehrten Schrägstrich (\\) in Pfaden, z.B. C:\\home\\sally\\statusreport."
+            ]
+        },
+        {
+            "Frage": "Welche Zeichen verwenden Unix und Windows jeweils in ihren Pfaden?",
+            "Antwort": [
+                "Unix verwendet den Schrägstrich (/) in Pfaden, während Windows den umgekehrten Schrägstrich (\\) verwendet."
+            ]
+        },
+        {
+            "Frage": "Was ist der Unterschied zwischen einem absoluten und einem relativen Pfad?",
+            "Antwort": [
+                "Ein absoluter Pfad enthält immer das Stammelement und die vollständige Verzeichnisliste, die zum Auffinden der Datei erforderlich ist. Ein relativer Pfad hingegen muss mit einem anderen Pfad kombiniert werden."
+            ]
+        }
+    ]
+}
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die ersten Schritte bei der Installation eines Betriebssystems?",
+                "Antwort": [
+                    "Überprüfen, ob der Computer mit dem Betriebssystem kompatibel ist",
+                    "Ändern der Startreihenfolge im Boot-Menü/BIOS auf CD/DVD oder USB-Laufwerk"
+                ]
+            },
+            {
+                "Frage": "Was passiert nach der Änderung der Startreihenfolge im Boot-Menü/BIOS?",
+                "Antwort": [
+                    "Der Installationsvorgang des Betriebssystems beginnt"
+                ]
+            },
+            {
+                "Frage": "Können mehrere Betriebssysteme auf einem Computer installiert werden?",
+                "Antwort": [
+                    "Ja, es können mehrere Betriebssysteme auf einem Computer installiert werden"
+                ]
+            },
+            {
+                "Frage": "Was ist GNUGRUB und wofür wird es verwendet?",
+                "Antwort": [
+                    "GNUGRUB ermöglicht das Booten eines von mehreren installierten Betriebssystemen",
+                    "Es wird in Unix-ähnlichen Systemen verwendet",
+                    "Es wird für die meisten Linux-Distributionen verwendet"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Welche Einstellungen müssen beim ersten Gebrauch eines Computers vorgenommen werden?",
+                "Antwort": [
+                    "Einstellen von Datum und Uhrzeit",
+                    "Einstellen des Tastaturlayouts",
+                    "Benennen des Benutzerkontos"
+                ]
+            },
+            {
+                "Frage": "Was passiert mit den erkannten Geräten beim ersten Gebrauch eines Computers?",
+                "Antwort": [
+                    "Alle erkannten Geräte werden aktiviert",
+                    "Sie werden automatisch vom Computer aktualisiert"
+                ]
+            },
+            {
+                "Frage": "Was bedeutet es, dass Geräte nach dem Plug-and-Play-Prinzip konzipiert sind?",
+                "Antwort": [
+                    "Beim ersten Einstecken wird das Gerät installiert",
+                    "Die Technik passt sich an Hardwareänderungen an"
+                ]
+            },
+            {
+                "Frage": "Was erfordert das Plug-and-Play-Prinzip?",
+                "Antwort": [
+                    "Hardwareunterstützung",
+                    "Systemsoftware",
+                    "Treiber"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was bedeutet die Konfiguration für Mehrbenutzer/Multiprogrammbetrieb?",
+                "Antwort": [
+                    "Auf einem Gerät können mehrere Benutzer installiert sein",
+                    "Jeder Benutzer hat individuelle Zugriffsrechte"
+                ]
+            },
+            {
+                "Frage": "Was sind die Zugriffe auf gemeinsame Anwendungen?",
+                "Antwort": [
+                    "Mehrere Benutzer können auf die gleichen Anwendungen zugreifen"
+                ]
+            },
+            {
+                "Frage": "Wer ist der 'ranghöchste' Benutzer in einem System?",
+                "Antwort": [
+                    "Der 'Administrator' ist der ranghöchste Benutzer in einem System"
+                ]
+            },
+            {
+                "Frage": "Wie wird ein Benutzerkonto in Linux-Systemen angelegt?",
+                "Antwort": [
+                    "In Linux-Systemen wird ein Benutzerkonto über die Befehlszeile angelegt",
+                    "'adduser' kann nur mit 'sudo' verwendet werden"
+                ]
+            },
+            {
+                "Frage": "Was beinhaltet ein Benutzerkonto in einem Linux-System?",
+                "Antwort": [
+                    "Ein Benutzerkonto in einem Linux-System beinhaltet den Benutzernamen, das Homeverzeichnis und die Rechte des Benutzers"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist die Userkontensteuerung (UAC) in Windows?",
+                "Antwort": [
+                    "Die Userkontensteuerung (UAC) ist ein Mechanismus zur Durchsetzung der Zugriffskontrolle in Windows."
+                ]
+            },
+            {
+                "Frage": "Was verhindert die Userkontensteuerung (UAC) in Windows?",
+                "Antwort": [
+                    "Die UAC verhindert, dass Benutzer Systemeinstellungen ändern können, ohne die entsprechenden Rechte zu haben."
+                ]
+            },
+            {
+                "Frage": "Was passiert, wenn ein Benutzer eine Anforderung in Windows startet, in Bezug auf die Userkontensteuerung (UAC)?",
+                "Antwort": [
+                    "Wenn ein Benutzer eine Anforderung startet, startet die UAC ebenfalls und überprüft, ob der Benutzer die jeweiligen Rechte für die Anforderung hat."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ermöglichen Updates?",
+                "Antwort": [
+                    "Behebungen von Bugs",
+                    "Sicherheitsupdates"
+                ]
+            },
+            {
+                "Frage": "Wie sind Updates heutzutage meistens?",
+                "Antwort": [
+                    "Updates sind heutzutage meistens automatisiert"
+                ]
+            },
+            {
+                "Frage": "Wie werden Updates auf einem Linux-System durchgeführt?",
+                "Antwort": [
+                    "Auf einem Linux-System werden Updates über den 'Package-Manager' durchgeführt"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist die Konfigurationsverwaltung in Linux?",
+                "Antwort": [
+                    "Es handelt sich um die Konfiguration von Anwendungen in Konfigurationsdateien.",
+                    "Diese sind reine Textdateien.",
+                    "Sie enthalten Variablennamen, die von einem Wert, Befehl oder einer Anweisung gefolgt werden.",
+                    "Die Mehrheit der Konfigurationsdateien befindet sich in 'letal'."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Wovon ist Windows abhängig?",
+                "Antwort": [
+                    "Windows ist abhängig von der Registry."
+                ]
+            },
+            {
+                "Frage": "Was ist die Registry in Windows?",
+                "Antwort": [
+                    "Die Registry ist eine Datenbank, die die Konfiguration für Windows und Anwendungen speichert."
+                ]
+            },
+            {
+                "Frage": "Was enthält die Registry in Windows?",
+                "Antwort": [
+                    "Die Registry enthält Profile für jeden Benutzer und installierte Anwendungen."
+                ]
+            },
+            {
+                "Frage": "Was speichert die Registry in Bezug auf Anwendungen?",
+                "Antwort": [
+                    "Die Registry speichert Informationen über installierte Anwendungen und die Arten von Dokumenten, die sie verarbeiten können."
+                ]
+            }
+        ]
+    }
+]

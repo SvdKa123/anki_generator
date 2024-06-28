@@ -1,0 +1,222 @@
+{
+  "Was sind die Hauptkomponenten eines Dateisystems?": [
+    "Einrichtung auf Partitionen",
+    "Verzeichnisse zur Strukturierung von Dateien",
+    "Speicherung von Daten in Blöcken innerhalb von Dateien",
+    "Dateien als kleinste verwaltete Einheiten"
+  ],
+  "Was sind die Bestandteile eines Dateisystems?": [
+    "Name",
+    "Typ",
+    "Ortsinformationen",
+    "Größe",
+    "Zeitstempel",
+    "Rechte",
+    "Eigentümer"
+  ],
+  "Was ist der Zweck des Namens in einem Dateisystem?": [
+    "Symbolischer, vom Benutzer lesbarer Name",
+    "Beispiel: AUTOEXEC.BAT"
+  ],
+  "Was ist der Zweck des Typs in einem Dateisystem?": [
+    "Unterscheidung verschiedener Dateitypen",
+    "Beispiel: sequentielle Datei, zeichenorientierte Datei"
+  ],
+  "Was sind Ortsinformationen in einem Dateisystem?": [
+    "Physische Speicherorte der Dateien",
+    "Gerätenummer, Nummern und Plattenblöcke"
+  ],
+  "Was ist der Zweck der Größe in einem Dateisystem?": [
+    "Anzeige der Dateilänge in Größeneinheiten",
+    "Verknüpft mit Ortsinformationen",
+    "Prüfung der Dateigrenzen beim Lesen",
+    "Beinhaltet Bytes und Blöcke"
+  ],
+  "Was ist der Zweck des Zeitstempels in einem Dateisystem?": [
+    "Zeigt Zeit und Datum der Erstellung",
+    "Unterstützung für Backups",
+    "Unterstützung für Entwicklungswerkzeuge",
+    "Benutzerüberwachung"
+  ],
+  "Was sind die Rechte in einem Dateisystem?": [
+    "Zugriffsrechte",
+    "Beinhaltet Lese- und Schreibberechtigungen",
+    "Kann unterschiedlich für Eigentümer und andere Benutzer sein"
+  ],
+  "Was ist der Zweck des Eigentümers in einem Dateisystem?": [
+    "Verknüpft mit Rechten",
+    "Zuordnung beim Accounting"
+  ],
+  "Welche zwei großen Dateisysteme gibt es unter Microsoft Windows?": [
+    "FAT",
+    "NTFS"
+  ],
+  "Woher stammt das FAT Dateisystem und welche Erweiterung hat es?": [
+    "Von altem DOS geerbt",
+    "Erweiterung: exFAT"
+  ],
+  "Welches Dateisystem wird von den meisten modernen Versionen des Betriebssystems Microsoft Windows verwendet?": [
+    "NTFS"
+  ],
+  "Was ist das ReFS Dateisystem und wann wurde es eingeführt?": [
+    "Eingeführt von Microsoft für Windows Server ab 2012"
+  ],
+  "Was ist FAT (File Allocation Table)?": [
+    "Einfachster Dateisystem-Typ",
+    "Besteht aus FS-Deskriptorsektor, Blockzuordnungstabelle, Speicherplatz für Daten",
+    "Speicherung von Dateien in Verzeichnissen"
+  ],
+  "Was ist ein FS-Deskriptorsektor?": [
+    "Auch als Bootsektor oder Superblock bekannt"
+  ],
+  "Was ist eine Blockzuordnungstabelle?": [
+    "Auch als File Allocation Table bekannt",
+    "Enthält Array von Blockdeskriptoren",
+    "Wert 0: Block nicht verwendet",
+    "Wert != 0: Nächster Block oder Ende"
+  ],
+  "Was bedeuten die Zahlen in FAT12, FAT16 und FAT32?": [
+    "Anzahl der Bits zur Adressierung eines FS-Blocks"
+  ],
+  "Wann wird FAT32 verwendet?": [
+    "Für externe Speicher/Festplatten < 32GB",
+    "Mit internem Windows-Tool bis 2TB formatierbar",
+    "Unlimitierte Formatierung mit externen Tools"
+  ],
+  "Was ist die Einschränkung von FAT32?": [
+    "Keine Erstellung von Dateien größer als 4GB"
+  ],
+  "Was wurde eingeführt, um die Einschränkung von FAT32 zu überwinden?": [
+    "exFAT zur Überwindung der FAT32-Einschränkung"
+  ],
+  "Was ist das NTFS Dateisystem und wo wird es hauptsächlich verwendet?": [
+    "Weit verbreitetes Dateisystem für Endbenutzer-Computer auf Windows",
+    "Hauptsächliche Nutzung in Windows-Betriebssystemen"
+  ],
+  "Was sind einige der Hauptfunktionen von NTFS?": [
+    "Zugriffskontrolle",
+    "Verschlüsselung"
+  ],
+  "Wie werden Dateien in NTFS gespeichert?": [
+    "Jede Datei als Deskriptor in der Master File Table mit Dateninhalt"
+  ],
+  "Was sind einige der Hauptmerkmale der Master File Table in NTFS?": [
+    "Informationen über Größe, Zuordnung, Name jeder Datei",
+    "Erste 16 Einträge für Bitmap zur Aufzeichnung freier/benutzter Cluster",
+    "Erster und letzter Sektor enthalten Einstellungen",
+    "Verwendung von 48- und 64-Bit-Werten zur Referenzierung",
+    "Unterstützung von Datenspeichern mit hoher Kapazität"
+  ],
+  "Was ist Journaling in NTFS und warum ist es wichtig?": [
+    "Aufzeichnung von Änderungen vor Durchführung",
+    "Wiederherstellung bei Systemausfällen möglich"
+  ],
+  "Was ist das Resilient File System (ReFS)?": [
+    "Neueste Entwicklung von Microsoft",
+    "Architektonische Unterschiede zu älteren Dateisystemen",
+    "Organisiert in Form eines B+Baums"
+  ],
+  "Welche besonderen Eigenschaften hat das Resilient File System (ReFS)?": [
+    "Hohe Fehlertoleranz",
+    "Unterstützung von Copy-on-Write (CoW)"
+  ],
+  "Was bedeutet es, dass das Resilient File System (ReFS) Copy-on-Write (CoW) unterstützt?": [
+    "Metadatenänderungen nur nach Kopie",
+    "Daten werden nicht direkt überschrieben, sondern separat gespeichert",
+    "Verknüpfung älterer Metadaten mit neueren Kopien"
+  ],
+  "Welche Vorteile bietet das Resilient File System (ReFS) in Bezug auf Backups und Datenwiederherstellung?": [
+    "Speicherung älterer Backups an verschiedenen Orten",
+    "Einfache Datenwiederherstellung, wenn Speicherplatz nicht überschrieben"
+  ],
+  "Was sind Dateisysteme für Linux?": [
+    "Methoden und Datenstrukturen zur Speicherung von Informationen",
+    "Beispiele: ext4, XFS, Btrfs, ZFS"
+  ],
+  "Was sind Ext2, Ext3 und Ext4?": [
+    "Versionen des Linux-Ext-Dateisystems",
+    "Gegenstand aktiver Entwicklungen und Verbesserungen"
+  ],
+  "Wie ist Ext3 eine Erweiterung von Ext2?": [
+    "Transaktionale Dateischreiboperationen mit Journal"
+  ],
+  "Wie ist Ext4 eine Erweiterung von Ext3?": [
+    "Optimierte Dateizuordnungsinformationen (Extents)",
+    "Erweiterte Dateiattribute"
+  ],
+  "In welchem Kontext werden die meisten Linux-Installationen verwendet?": [
+    "Als 'Root'-System"
+  ],
+  "Was ist ReiserFS?": [
+    "Alternatives Linux-Dateisystem"
+  ],
+  "Für was ist ReiserFS optimiert?": [
+    "Speicherung einer großen Anzahl kleiner Dateien"
+  ],
+  "Wie ist die Suchfunktion von ReiserFS?": [
+    "Gute Suchfunktion durch Tails",
+    "Speicherung sehr kleiner Elemente mit Metadaten"
+  ],
+  "Wird ReiserFS noch aktiv entwickelt und unterstützt?": [
+    "Nicht mehr aktiv entwickelt und unterstützt"
+  ],
+  "Was ist das XFS?": [
+    "Robustes Journaling-Dateisystem"
+  ],
+  "Welche besonderen Eigenschaften hat das XFS?": [
+    "Unterstützt Speicherung sehr großer Dateien/Volumes auf einem Host"
+  ],
+  "Auf welchem Prinzip basiert BTRFS?": [
+    "Copy-on-Write-Prinzip (COW)"
+  ],
+  "Seit wann wird BTRFS vom Mainline-Linux-Kernel unterstützt?": [
+    "Seit 2009"
+  ],
+  "Welche Funktionen bietet BTRFS?": [
+    "Funktioniert als Volume-Manager",
+    "Kann mehrere Geräte umfassen",
+    "Höhere Fehltoleranz",
+    "Bessere Skalierbarkeit",
+    "Einfachere Verwaltung"
+  ],
+  "Wer hat das F2FS-Dateisystem entwickelt und für welches Betriebssystem ist es gedacht?": [
+    "Entwickelt von Samsung Electronics",
+    "Für Linux-Dateisystem"
+  ],
+  "Auf welcher Art von Speicher ist F2FS angepasst?": [
+    "Angepasst an NAND-Flash-Speicher"
+  ],
+  "Auf welchem Ansatz arbeitet F2FS?": [
+    "Basiert auf log-strukturiertem FS-Ansatz (LFS)"
+  ],
+  "Welche Eigenschaften des Flash-Speichers berücksichtigt F2FS?": [
+    "Konstante Zugriffszeit des Flash-Speichers",
+    "Begrenzte Anzahl von Datenwiederbeschreibungszyklen"
+  ],
+  "Wie wird eine Datei in einem Dateisystem identifiziert?": [
+    "Identifizierung durch Pfad im Dateisystem",
+    "Beginnend mit dem Stammknoten"
+  ],
+  "Was ist ein Pfad in einem Dateisystem?": [
+    "Beschreibung des Zugriffsweges zu einer Datei",
+    "Ausgehend vom Wurzelelement (Root- oder Stammknoten)"
+  ],
+  "Wie unterscheiden sich Windows und Unix in Bezug auf die Unterstützung von Stammknoten?": [
+    "Windows: Mehrere Stammknoten, jedem Volumen zugeordnet (z.B. C:\\, D:\\)",
+    "Unix: Nur ein Rootknoten"
+  ],
+  "Wie wird der Rootknoten in Unix-Betriebssystemen beschrieben?": [
+    "Beschreibung mit spezieller Notation, z.B. /home/sally/statusreport"
+  ],
+  "Welche Schreibweise verwendet Microsoft für Pfade?": [
+    "Verwendet umgekehrten Schrägstrich (\\), z.B. C:\\home\\sally\\statusreport"
+  ],
+  "Welche Zeichen verwenden Unix und Windows jeweils in ihren Pfaden?": [
+    "Unix: Schrägstrich (/)",
+    "Windows: Umgekehrter Schrägstrich (\\)"
+  ],
+  "Was ist der Unterschied zwischen einem absoluten und einem relativen Pfad?": [
+    "Absoluter Pfad: Vollständige Verzeichnisliste mit Stammelement",
+    "Relativer Pfad: Muss mit anderem Pfad kombiniert werden"
+  ]
+}

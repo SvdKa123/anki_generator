@@ -1,0 +1,155 @@
+{
+  "Was bedeutet Atomarität in der Programmierung?": [
+    "Vorhanden, wenn ein Thread den Zustand eines/vieler Objekte ändert, ohne dass andere Threads Zwischenzustände sehen",
+    "Andere Threads sehen nur Zustände vor oder nach der Operation"
+  ],
+  "Was sind atomare Operationen?": [
+    "Programmoperationen, die unabhängig von anderen Prozessen ausgeführt werden",
+    "Einsatz in modernen Betriebssystemen und Parallelverarbeitungssystemen",
+    "Verwendung im Kernel der meisten Betriebssysteme"
+  ],
+  "Was bewirken atomare Lese- und Schreibvorgänge?": [
+    "Wertmehrung bei Holen, Addieren oder Subtrahieren durch atomare Operationen",
+    "Exklusives Lesen und Schreiben durch einen Prozessor an einer Stelle während der Dateiübertragung",
+    "Verhinderung anderer Ein-/Ausgabemechanismen oder Prozessoren, Speicherlese- oder -schreibaufgaben gleichzeitig durchzuführen"
+  ],
+  "Welche Probleme entstehen bei parallel laufenden Operationen?": [
+    "Probleme bei der Nutzung derselben Daten durch zwei parallel laufende Operationen",
+    "Unstimmigkeiten bei Ereignissen der Operationen",
+    "Sperrmechanismen zur Überwachung variabler Daten und Erzwingung sequentiellen Betriebs"
+  ],
+  "Was versteht man unter Multitasking in Rechensystemen?": [
+    "Fähigkeit, mehrere Programme gleichzeitig zu betreiben",
+    "Frühe Multitasking-Systeme: Unix, Windows NT, Windows 95",
+    "CPU-Zustand repräsentiert durch Belegung der Register den aktuellen Verarbeitungsschritt",
+    "Programmwechsel durch Austausch der Zustandsbeschreibung und gespeicherter Registerdaten",
+    "Gleichzeitigkeitseindruck durch schnellen Wechsel der Registerinhalte verschiedener Programme und Prozesse",
+    "Sicherung weiterer Informationen über den laufenden Prozess neben den Registerinhalten der CPU"
+  ],
+  "Was passiert, wenn ein Prozess vom Betriebssystem erstellt wird?": [
+    "Erstellung einer Datenstruktur (PCB) zur Speicherung von Prozessinformationen",
+    "Speicherung des PCB im für das Betriebssystem reservierten Speicher (Kernel Space)"
+  ],
+  "Was sind die Eigenschaften eines Process Control Blocks (PCB)?": [
+    "Einzigartig für jeden Prozess",
+    "Enthält verschiedene Attribute wie Prozess-ID, Priorität, Register, Programmzähler und Prozessstatus"
+  ],
+  "Was ist das allgemeine Konzept von kooperativem Multitasking?": [
+    "Mehrere Softwareanwendungen teilen sich Ressourcen eines gemeinsamen Host-Prozessors",
+    "Aufgaben in Warteschlange und periodische Ressourcenaufteilung"
+  ],
+  "Wie funktioniert die Kontrolle und der Prozesswechsel bei kooperativem Multitasking?": [
+    "Kein Kontextwechsel durch das Betriebssystem",
+    "Laufendes Programm gibt Kontrolle freiwillig für die nächste Aufgabe ab"
+  ],
+  "In welchen Anwendungsszenarien ist kooperatives Multitasking nützlich?": [
+    "Geeignet für einzelne Benutzer mit wenigen Aufgaben",
+    "Unzureichend bei vielen Aufgaben oder mehreren Benutzern"
+  ],
+  "Wie hat sich die Relevanz von kooperativem Multitasking entwickelt?": [
+    "Beliebt in der 16-Bit-Ära",
+    "Heute weniger verbreitet, außer in eingebetteten Systemen mit begrenztem Speicher"
+  ],
+  "Was sind die Einschränkungen und Effizienzaspekte von kooperativem Multitasking?": [
+    "Nicht optimale Technologieauslastung im Vergleich zu präemptivem Multitasking",
+    "Kontrolle wird nur bei Leerlauf oder Blockierung durch anderes Programm abgegeben"
+  ],
+  "Was ist das allgemeine Konzept von präemptivem Multitasking?": [
+    "Dynamische Zuweisung und Entzug der Prozesskontrolle durch das Betriebssystem",
+    "Effiziente Aufteilung von Ressourcen und CPU-Zeit zwischen mehreren Tasks"
+  ],
+  "Wie funktioniert die Kontrolle und der Prozesswechsel bei präemptivem Multitasking?": [
+    "Zeitscheibenmechanismus bestimmt durch Scheduler, welcher Prozess als nächstes ausgeführt wird",
+    "Automatischer Kontextwechsel nach Ablauf der Zeitscheibe, unabhängig vom Prozesszustand"
+  ],
+  "In welchen Anwendungsszenarien ist präemptives Multitasking geeignet?": [
+    "Für Systeme mit mehreren Benutzern und hoher Anzahl an Aufgaben",
+    "Verwendung in modernen Betriebssystemen wie Linux, Windows und macOS"
+  ],
+  "Was sind die technischen Grundlagen von präemptivem Multitasking?": [
+    "Erfordert CPU mit verschiedenen Berechtigungs-Modi",
+    "Systemkern im Modus mit maximaler Berechtigung, Anwendungen in unterprivilegierten Modi"
+  ],
+  "Wie unterscheiden sich die Berechtigungsstufen?": [
+    "Linux: Kernel-Mode und User-Mode",
+    "Windows NT und Nachfolger: 'Ring 0' für Kernel-Modus, höhere Nummern für unterprivilegierte Prozesse"
+  ],
+  "Was sind die Kernfunktionen des Betriebssystemkerns bei präemptivem Multitasking?": [
+    "Zuweisung von Zeitscheiben an Prozesse",
+    "Einfrieren von Prozessen nach Ablauf der Zeitscheibe",
+    "Wiederherstellung des Prozesszustands zur Fortsetzung der Arbeit"
+  ],
+  "Was ist das allgemeine Konzept von Scheduling?": [
+    "Zuweisung von Ressourcen (CPU, Netzwerk, Peripherie) für Aufgaben (Threads, Prozesse, Datenströme)",
+    "Durchgeführt durch einen spezialisierten Prozess, den Scheduler",
+    "Ziel: Effiziente Ressourcennutzung und/oder Dienstqualität"
+  ],
+  "Warum ist Scheduling wichtig?": [
+    "Fundamental für die Ausführung von Berechnungen und Computer-Systemen",
+    "Ermöglicht Multitasking mit einer einzelnen CPU"
+  ],
+  "Welche Arten von Scheduling-Algorithmen gibt es?": [
+    "Benutzerorientiertes Scheduling: Kurze Antwortzeiten für den User",
+    "Systemorientiertes Scheduling: Optimale CPU-Auslastung",
+    "Kein Algorithmus erreicht beide Ziele gleichzeitig"
+  ],
+  "Was sind gängige Scheduling-Verfahren?": [
+    "First Come First Serve (FCFS): Bearbeitung in Reihenfolge des Eintreffens",
+    "Shortest Job First (SJF): Kürzeste Aufgabe zuerst, lange Aufgaben können benachteiligt sein",
+    "Highest Response Ratio Next (HRRN): Bevorzugt Prozess mit höchstem Verhältnis (Antwortzeit / Bedienzeit)",
+    "Round Robin (RR): Kombination aus FCFS und Zeitscheiben, rotierende Zeitscheiben für jeden Prozess",
+    "Shortest Remaining Time First (SRTF): Wie SJF, berücksichtigt verbleibende Zeit",
+    "Multilevel Feedback Scheduling (MFS): Dynamische Prioritätenänderung basierend auf der Prozesshistorie"
+  ],
+  "Welche Auswirkungen haben verschiedene Scheduling-Verfahren?": [
+    "Unterschiedliche mittlere Wartezeiten je nach verwendetem Algorithmus"
+  ],
+  "Was ist eine Race Condition im Kontext der Prozesssynchronisation?": [
+    "Gleichzeitiger Zugriff von zwei oder mehr Threads auf dieselbe Speicherstelle",
+    "Mindestens ein Zugriff ist ein Schreibzugriff ohne exklusive Sperren zur Steuerung"
+  ],
+  "Welche Probleme entstehen durch Race Conditions?": [
+    "Unvorhersehbare Werte in gemeinsam genutzten Variablen",
+    "Überlagerung von Werten durch parallele Threads",
+    "Kritische Abschnitte im Code, die Race Conditions begünstigen"
+  ],
+  "Welche Folgen können Race Conditions haben?": [
+    "Computerabstürze oder illegale Operationen",
+    "Lesefehler von alten Daten",
+    "Schreibfehler von neuen Daten"
+  ],
+  "Wie können Race Conditions gelöst werden?": [
+    "Synchronisierung von Threads",
+    "Konfliktvermeidung bei der Nutzung kritischer Ressourcen",
+    "Beachtung von Sicherheitsaspekten"
+  ],
+  "Was ist ein Mutex und wie wird er verwendet?": [
+    "Mutex steht für 'gegenseitiger Ausschluss' und wird kooperativ zwischen Threads verwendet"
+  ],
+  "Wie funktioniert ein Mutex?": [
+    "Ermöglicht, dass nur ein Thread gleichzeitig auf Daten oder Code zugreifen kann",
+    "Verhindert den Zugriff anderer Threads, die keinen Mutex verwenden"
+  ],
+  "Welche Operationen werden mit einem Mutex durchgeführt?": [
+    "Erstellen, Sperren, Entsperren, Zerstören"
+  ],
+  "Wie wird die Eigentümerschaft eines Mutex gehandhabt?": [
+    "Ein Thread, der den Mutex sperrt, wird zum Eigentümer",
+    "Andere Threads müssen warten, bis der Eigentümer den Mutex freigibt",
+    "Kontrolle geht an den nächsten wartenden Thread, wenn der Eigentümer die Sperre aufhebt"
+  ],
+  "Was ist die Definition eines Deadlocks?": [
+    "Blockierung durch zirkuläre Abhängigkeit zwischen wartenden Prozessen, wobei jeder Prozess eine Ressource hält und auf eine andere wartet"
+  ],
+  "Welche Beispiele gibt es für Deadlocks?": [
+    "Zirkuläres Warten: Gruppe von Prozessen in zirkulärer Abhängigkeit"
+  ],
+  "Wie können Deadlocks erkannt und behoben werden?": [
+    "Einsatz von Erkennungsalgorithmen zur Feststellung von Deadlocks",
+    "Mögliche Maßnahmen zur Behebung: Abbruch aller oder sukzessiver Abbruch von blockierten Prozessen, Resource Preemption, Deadlock Ignoranz"
+  ],
+  "Was versteht man unter Deadlock Ignoranz?": [
+    "Einige Betriebssysteme wie Unix und Windows ignorieren Deadlocks aufgrund ihrer Seltenheit",
+    "Bei Auftreten eines Deadlocks kann ein Systemneustart erforderlich sein, der zu Datenverlust führen kann"
+  ]
+}

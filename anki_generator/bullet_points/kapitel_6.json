@@ -1,0 +1,119 @@
+{
+  "Was ist die Shell in Bezug auf Betriebssysteme?": [
+    "Äußerste Schicht des Betriebssystems",
+    "Macht Dienste des Betriebssystems zugänglich"
+  ],
+  "Wie hat sich die Schnittstelle in der Entwicklung der Betriebssysteme verändert?": [
+    "Erste Schnittstelle in Lochkarten des Batch-Betriebes mit offline Eingabe",
+    "Zweite Entwicklung: Terminals"
+  ],
+  "Worauf war die Zeicheneingabe in frühen Schnittstellen beschränkt?": [
+    "Beschränkt auf ASCII-Zeichentabelle"
+  ],
+  "Was kennzeichnet eine Eingabe über die Kommandozeile?": [
+    "Eingabe über Kommandozeile beschränkt",
+    "Bekannt als 'command line Interface'"
+  ],
+  "Was ist ein Terminal User Interface (TUI)?": [
+    "Ausgabe in mehreren Zeilen oder Menüauswahl",
+    "Bekannt als Terminal User Interface (TUI)"
+  ],
+  "Wie funktioniert die Eingabe in einer Befehlszeilenschnittstelle?": [
+    "Eingabe des Users hinter spezielle Markierung 'prompt'"
+  ],
+  "Was umfasst die Befehlszeilenschnittstelle?": [
+    "Besteht aus Syntax und Semantik"
+  ],
+  "Was ist die Syntax in einer Befehlszeilenschnittstelle?": [
+    "Grammatik, der alle Befehle folgen müssen"
+  ],
+  "Was ist die Semantik in einer Befehlszeilenschnittstelle?": [
+    "Legt fest, welche Art von Operationen möglich sind"
+  ],
+  "Was sind interne Befehle in einer Shell?": [
+    "Befehle, die in die Shell eingebaut sind",
+    "Benötigen keinen Path",
+    "Beispiele: source, cd, mkdir"
+  ],
+  "Was sind externe Befehle in einer Shell?": [
+    "Befehle, die nicht in die Shell eingebaut sind",
+    "Shell sucht nach Pfad, neuer Prozess wird erstellt",
+    "Befinden sich in zentralen Verzeichnissen",
+    "Beispiele: cat, ls"
+  ],
+  "Was kennzeichnet die textbasierte Shell in Windows?": [
+    "Microsoft behält ursprüngliche Form des CLI",
+    "Powershell als plattformübergreifende Lösung zur Aufgabenautomatisierung"
+  ],
+  "Was umfasst Powershell?": [
+    "Befehlszeilen-Shell",
+    "Skriptsprache",
+    "Konfigurationsmanagement-Framework"
+  ],
+  "Auf welchen Betriebssystemen läuft Powershell?": [
+    "Windows, Linux, macOS"
+  ],
+  "Was kennzeichnet die CLI in Powershell?": [
+    "Moderne Befehlsshell mit Features aus anderen beliebten Shells",
+    "Akzeptiert und gibt .NET Objekte zurück"
+  ],
+  "Was ist die Funktion der Skriptsprache in Powershell?": [
+    "Wird für Automatisierung von Systemverwaltung verwendet",
+    "Basiert auf .NET Common Language Runtime (CLR)"
+  ],
+  "Was ist die Rolle der Automatisierungsplattform in Powershell?": [
+    "Erweiterbarkeit für Bereitstellung und Verwaltung verschiedener Technologien",
+    "Beispiele: Azure, Windows, Exchange, SQL, AWS, VMware, Google Cloud"
+  ],
+  "Was ist Powershell Desired State Configuration (DSC)?": [
+    "Verwaltungsframework zur Konfigurationsverwaltung",
+    "Ermöglicht Unternehmensstruktur-Verwaltung mit Konfiguration als Code (CaaC)"
+  ],
+  "Welche Funktionen bietet Powershell DSC?": [
+    "Erstellen deklarativer Konfigurationen",
+    "Benutzerdefinierte Skripts für wiederholbare Einstellungen",
+    "Erzwingen von Konfigurationseinstellungen",
+    "Erstellen von Berichten über Konfigurationseinstellungen",
+    "Bereitstellung von Konfigurationen mittels Push- oder Pull-Methoden"
+  ],
+  "Was sind Powershell-Befehle (Cmdlets)?": [
+    "Spezielle Befehle in Powershell",
+    "Beispiel: 'Get-Command -Type Cmdlet' zeigt verfügbare Cmdlets an",
+    "Befehle wie 'cd', 'dir' funktionieren in Powershell, nicht in cmd"
+  ],
+  "Was ist Pipelining in Betriebssystemschnittstellen?": [
+    "Technik anonymer Pipelines",
+    "Verbindung von zwei oder mehr Befehlen in Ein-/Ausgabekonzept",
+    "Ausgabe eines Befehls dient als Eingabe für den nächsten Befehl"
+  ],
+  "Wie funktioniert der Vorgang des Pipelinings?": [
+    "Von Prozessen geschriebene Daten werden vom Betriebssystem gepuffert",
+    "Puffer wird an den nächsten Prozess übergeben"
+  ],
+  "Was ist die Syntax für anonyme Pipes?": [
+    "Auflisten mehrerer Befehle",
+    "Befehle werden durch vertikale Balken getrennt"
+  ],
+  "Was bedeutet Redirection in Betriebssystemen?": [
+    "Lenkung von Ein- und Ausgaben mit Notation",
+    "Möglichkeit, Datei Handles zu duplizieren, öffnen, schließen, verändern, verweisen"
+  ],
+  "Wie funktioniert die Umleitung der Eingabe und Ausgabe?": [
+    "'<' zur Umleitung der Eingabe",
+    "'>' zur Umleitung der Ausgabe"
+  ],
+  "Was sind Wildcards in der Programmierung?": [
+    "Zeichen mit besonderer Bedeutung für Mustererkennung",
+    "Genutzt für 'glob-Muster'"
+  ],
+  "Was ist das Fragezeichen-Muster in Wildcards?": [
+    "'?' passt auf beliebiges einzelnes Zeichen"
+  ],
+  "Was ist das Stern-Muster in Wildcards?": [
+    "'*' passt auf beliebige Anzahl an Zeichen",
+    "Einschließlich Leer- oder keinem Zeichen"
+  ],
+  "Sind reguläre Ausdrücke in einigen Umgebungen möglich?": [
+    "Ja, für Mustererkennung in Zeichenketten"
+  ]
+}

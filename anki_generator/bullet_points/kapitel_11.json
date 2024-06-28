@@ -1,0 +1,68 @@
+{
+  "Was ist ein Embedded System?": [
+    "Mikroprozessor-geschütztes System",
+    "Steuerung einer oder mehrerer Funktionen",
+    "Kombination aus Computerhardware und Software",
+    "Spezifische Funktion",
+    "Existenz innerhalb größerer Systeme"
+  ],
+  "Kann ein Embedded System eine grafische Benutzeroberfläche (GUI) haben?": [
+    "Ja, möglich",
+    "GUI kann bei einfachen Funktionen entfallen"
+  ],
+  "Aus welchen Komponenten besteht ein Embedded System?": [
+    "Prozessor mit geringem Stromverbrauch",
+    "Geringe Stromversorgung",
+    "Speicher",
+    "Kommunikationsanschlüsse"
+  ],
+  "Was prägt das Betriebssystem eines Embedded Systems?": [
+    "Funktionalität des Systems"
+  ],
+  "Welche Optimierung ist für ein Embedded System notwendig?": [
+    "Optimierung der Hardware-Ressourcen"
+  ],
+  "Welche Zuverlässigkeitsanforderung hat ein Embedded System?": [
+    "Hohe Zuverlässigkeit"
+  ],
+  "Welche Anforderung hat ein Embedded System an den Speicher?": [
+    "Stetige Funktionsfähigkeit des Speichers"
+  ],
+  "Welche Energieanforderung hat ein Embedded System?": [
+    "Stromsparende Konstruktion"
+  ],
+  "Wie sollte ein Embedded System auf den Anwendungsfall zugeschnitten sein?": [
+    "Maßgeschneidert für den Anwendungsfall"
+  ],
+  "Was sind Beispiele für Embedded Systems in Autos?": [
+    "Geschwindigkeitsreglung",
+    "Rückfahrsensoren",
+    "Navigationssysteme"
+  ],
+  "Welche Embedded Systems sind in Smartphones zu finden?": [
+    "Betriebssystem",
+    "Kamera",
+    "Anschluss für Massenspeicher"
+  ],
+  "Welche Embedded Systems sind in Industrierobotern zu finden?": [
+    "Sensoren",
+    "Überwachungsfunktion",
+    "Steuerungsfunktion"
+  ],
+  "Was bedeutet die Abkürzung GPIO?": [
+    "General Purpose Input/Output"
+  ],
+  "Wofür wird GPIO verwendet?": [
+    "Verbindung mit anderen Geräten wie Sensoren, Dioden und Displays"
+  ],
+  "Wie viele programmierbare Eingangs-/Ausgangskontakte hat ein GPIO?": [
+    "Mehrere programmierbare Kontakte, Anzahl variiert"
+  ],
+  "Wie wird GPIO in der Steuerung und Anwendungsentwicklung eingesetzt?": [
+    "Überwachung von Messwerten",
+    "Auslösen von Schwellwerten durch Programmierung"
+  ],
+  "Was ist für die Nutzung von GPIO erforderlich?": [
+    "Einbindung einer speziellen Bibliothek"
+  ]
+}

@@ -1,0 +1,434 @@
+[
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die Anwendungen von Batch-Dateien und Skripten?",
+                "Antwort": [
+                    "Automatisierung von Routineaufgaben",
+                    "Backup und Leeren von Daten",
+                    "Ausführung von Netzwerkaufgaben"
+                ]
+            },
+            {
+                "Frage": "Was ist die Geschichte und Entwicklung von Scripting in der Unix-Shell?",
+                "Antwort": [
+                    "Die Ausgabe eines Programms kann als Eingabe eines anderen Programms verwendet werden, dies wird als Pipe bezeichnet",
+                    "Die Unix-Shell entstand 1973",
+                    "Bash ist bis heute die am weitesten verbreitete Unix-Shell",
+                    "Mit dem Aufkommen des WWW folgten weitere Skriptsprachen wie PHP, Python, Ruby"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die Vorteile von Skriptsprachen?",
+                "Antwort": [
+                    "Einfacher als Programmiersprachen",
+                    "Interpretierung statt Kompilierung",
+                    "Portabilität",
+                    "Datei, die alle Anweisungen enthält"
+                ]
+            },
+            {
+                "Frage": "Was sind die Nachteile von Skriptsprachen?",
+                "Antwort": [
+                    "Beschränkt in Möglichkeiten",
+                    "Wenig geeignet für anspruchsvolle Aufgaben",
+                    "Code unverständlicher als moderne Programmiersprachen"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist bash in Bezug auf Automatisierungswerkzeuge?",
+                "Antwort": [
+                    "Bash ist ein GNU-Ersatz und eine Erweiterung der sh-Shell."
+                ]
+            },
+            {
+                "Frage": "Was ist cmd.exe?",
+                "Antwort": [
+                    "Cmd.exe ist ein Befehlsinterpreter ab Windows NT."
+                ]
+            },
+            {
+                "Frage": "Was ist Powershell?",
+                "Antwort": [
+                    "Powershell ist ein Befehlsinterpreter, der auch für Windows Skriptsprachen als Bibliotheken verfügbar ist."
+                ]
+            },
+            {
+                "Frage": "Was ist GNU in Bezug auf Automatisierungswerkzeuge?",
+                "Antwort": [
+                    "GNU ist eine Extension Language."
+                ]
+            },
+            {
+                "Frage": "Was ist Lua in Bezug auf Automatisierungswerkzeuge?",
+                "Antwort": [
+                    "Lua wird zum Einbinden von Code in Programme verwendet."
+                ]
+            },
+            {
+                "Frage": "Was sind VBScript und JScript?",
+                "Antwort": [
+                    "VBScript und JScript sind Standardskripte in neuen Windows-Versionen."
+                ]
+            },
+            {
+                "Frage": "Was ist Windows Powershell in Bezug auf Skriptsprachen?",
+                "Antwort": [
+                    "Windows Powershell ist Microsofts Skriptsprache zum Einbinden in .NET-Programme."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was war die erste Skriptsprache in Webservern?",
+                "Antwort": [
+                    "Perl"
+                ]
+            },
+            {
+                "Frage": "Welche ist die verbreitetste Skriptsprache auf Webservern?",
+                "Antwort": [
+                    "PHP"
+                ]
+            },
+            {
+                "Frage": "Wie kann Python in Bezug auf Webserver verwendet werden?",
+                "Antwort": [
+                    "Python kann mit einem Webserver verbunden werden",
+                    "Python kann mit einem eigenständigen Webserver verbunden werden"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist ein Shell-Skript in Unix und Linux?",
+                "Antwort": [
+                    "Es ist eine Textdatei",
+                    "Es ist eine Folge von Befehlen für Unix",
+                    "Es fasst eine Reihe von Befehlen in einer Textdatei zusammen",
+                    "Es wird durch das Shell-Command-Line-Interface (CLI) ausgeführt",
+                    "Skriptdateien werden zeilenweise abgearbeitet"
+                ]
+            },
+            {
+                "Frage": "Was passiert während des Shell preprocessing in Unix und Linux?",
+                "Antwort": [
+                    "Jede Zeile wird vorverarbeitet",
+                    "Besondere Zeichen und Ausdrücke werden analysiert und ggf. ersetzt"
+                ]
+            },
+            {
+                "Frage": "Was repräsentieren geschweifte Klammern und die Tilde in Unix und Linux Shell-Skripten?",
+                "Antwort": [
+                    "Geschweifte Klammern sind Platzhalter",
+                    "Die Tilde repräsentiert das aktuelle Stammverzeichnis"
+                ]
+            },
+            {
+                "Frage": "Was passiert mit Shellvariablen und arithmetischen Ausdrücken in Unix und Linux Shell-Skripten?",
+                "Antwort": [
+                    "Shellvariablen werden durch ihren aktuellen Wert ersetzt",
+                    "Arithmetische Ausdrücke werden berechnet"
+                ]
+            },
+            {
+                "Frage": "Was sind Dateinamen aus Wildcards in Unix und Linux Shell-Skripten?",
+                "Antwort": [
+                    "Sie sind spezielle Zeichen, die zur Übereinstimmung mit beliebigen Zeichenfolgen in Dateinamen verwendet werden"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind Shell-Befehle?",
+                "Antwort": [
+                    "Shell-Befehle können interner oder externer Art sein."
+                ]
+            },
+            {
+                "Frage": "Was sind interne Shell-Befehle?",
+                "Antwort": [
+                    "Interne Shell-Befehle sind vordefinierte Befehle des Kommando-Interpreters."
+                ]
+            },
+            {
+                "Frage": "Was sind externe Shell-Befehle?",
+                "Antwort": [
+                    "Externe Shell-Befehle sind ausführbare Dateien, die über einen Suchpfad erreichbar sind."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist der Sinn von Shell-Variablen in der Programmierung?",
+                "Antwort": [
+                    "Shell-Variablen haben den gleichen Sinn wie Variablen in anderen Programmiersprachen."
+                ]
+            },
+            {
+                "Frage": "Wie wird die Interpretation von Shell-Variablen durchgeführt?",
+                "Antwort": [
+                    "Die Interpretation von Shell-Variablen ist kontextsensitiv."
+                ]
+            },
+            {
+                "Frage": "Wie können Shell-Variablen gesetzt werden?",
+                "Antwort": [
+                    "Shell-Variablen können explizit gesetzt werden.",
+                    "Sie können von der Kommandozeile gelesen werden.",
+                    "Sie können aus Umgebungsvariablen extrahiert werden."
+                ]
+            },
+            {
+                "Frage": "Wie werden Shell-Variablen herausgegeben?",
+                "Antwort": [
+                    "Shell-Variablen werden durch das $-Zeichen herausgegeben."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind Metazeichen und wie werden sie verwendet?",
+                "Antwort": [
+                    "Metazeichen sind Zeichen, die nicht in Anführungszeichen stehen und Wörter trennen.",
+                    "Beispiele für Metazeichen sind Leerzeichen, Tabulatoren und Zeilenumbrüche."
+                ]
+            },
+            {
+                "Frage": "Was sind einige Beispiele für Kontrollstrukturen?",
+                "Antwort": [
+                    "Kontrollstrukturen sind Anweisungen, die den Ablauf eines Programms steuern.",
+                    "Beispiele für Kontrollstrukturen sind 'if', 'then', 'else', 'case', 'for loop', 'until loop', 'while loop'."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist die generelle Syntax in Powershell?",
+                "Antwort": [
+                    "Die Syntax beginnt mit dem Befehlsnamen",
+                    "Gefolgt von '-<Required Parameter Name>-<Required Parameter Value>'",
+                    "Optional kann man '-<Optional Parameter Name> <Optional Parameter Value>' hinzufügen"
+                ]
+            },
+            {
+                "Frage": "Was ist ein Beispiel für einen Befehl in Powershell?",
+                "Antwort": [
+                    "Ein Beispiel ist 'Get-Childitem'",
+                    "Es hat den Alias 'gei'"
+                ]
+            },
+            {
+                "Frage": "Was sind Parameter in Powershell?",
+                "Antwort": [
+                    "Parameter sind Optionen, die bestimmen, was ein Befehl tut",
+                    "Parameter Namen beginnen mit einem Bindestrich"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist ein Parameterwert?",
+                "Antwort": [
+                    "Es ist der Wert, den ein Parameter benötigt.",
+                    "In einem Syntaxdiagramm wird der Parameterwert durch den .NET-Typ dargestellt."
+                ]
+            },
+            {
+                "Frage": "Was sind Cmdlets und wie sind sie strukturiert?",
+                "Antwort": [
+                    "Cmdlets sind einfache Befehle.",
+                    "Sie folgen dem Namensschema Verb-Substantiv, z.B. Get-PSD-Drive, Set-Location.",
+                    "Sie sind aufgabenorientiert durch das vorangestellte Verb.",
+                    "Es können Aliase für Cmdlets erstellt werden."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist die Bedeutung der Objektorientierung in der Programmierung?",
+                "Antwort": [
+                    "Ergebnisse einer Funktion werden strukturiert als Objekt dargestellt",
+                    "Dies vereinfacht den gezielten Zugriff auf Attribute"
+                ]
+            },
+            {
+                "Frage": "Was sollte man über Ausgabe und Formatierung wissen?",
+                "Antwort": [
+                    "Dieses Thema sollte im Skript nachgeschlagen werden, da es spezifische Details enthält, die nicht in Stichpunkten zusammengefasst werden können"
+                ]
+            },
+            {
+                "Frage": "Was sollte man über Kontrollstrukturen wissen?",
+                "Antwort": [
+                    "Dieses Thema sollte im Skript nachgeschlagen werden, da es spezifische Details enthält, die nicht in Stichpunkten zusammengefasst werden können"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was ist Pipelining?",
+                "Antwort": [
+                    "Pipelining ist eine Reihe von Befehlen",
+                    "Diese Befehle sind mit Pipeline-Operatoren verbunden"
+                ]
+            },
+            {
+                "Frage": "Wie funktioniert Pipelining?",
+                "Antwort": [
+                    "Pipelining sendet die Ergebnisse des vorherigen Befehls als Eingabe an den nächsten Befehl",
+                    "Auf diese Weise entsteht eine komplexe Befehlskette oder Pipeline"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die vier Möglichkeiten der Dateiausgabe in PowerShell?",
+                "Antwort": [
+                    "Verwendung von Content und Let's cmdlets",
+                    "Verwendung von Out-File cmdlets",
+                    "Verwendung des Redirection-Operators",
+                    "Verwendung von .NET-Klassen"
+                ]
+            },
+            {
+                "Frage": "Was sind die vier Content cmdlets zur Ausgabe in eine Datei?",
+                "Antwort": [
+                    "Add-Content",
+                    "Clear-Content",
+                    "Get-Content",
+                    "Set-Content"
+                ]
+            },
+            {
+                "Frage": "Was macht das Add-Content cmdlet in PowerShell?",
+                "Antwort": [
+                    "Das Add-Content cmdlet fügt Inhalt am Ende einer Datei hinzu."
+                ]
+            },
+            {
+                "Frage": "Was macht das Clear-Content cmdlet in PowerShell?",
+                "Antwort": [
+                    "Das Clear-Content cmdlet löscht den Inhalt einer Datei, ohne die Datei selbst zu löschen."
+                ]
+            },
+            {
+                "Frage": "Was macht das Get-Content cmdlet in PowerShell?",
+                "Antwort": [
+                    "Das Get-Content cmdlet liest den Inhalt einer Datei."
+                ]
+            },
+            {
+                "Frage": "Was macht das Set-Content cmdlet in PowerShell?",
+                "Antwort": [
+                    "Das Set-Content cmdlet schreibt und ersetzt den Inhalt in einer Datei."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was passiert, wenn ein Cmdlet ein Objekt und keine Zeichenfolge übergeben wird?",
+                "Antwort": [
+                    "Cmdlets konvertieren das Objekt mit der Methode 'To String()' bevor sie es speichern."
+                ]
+            },
+            {
+                "Frage": "Was macht das Cmdlet 'Out-File'?",
+                "Antwort": [
+                    "Mit dem Cmdlet 'Out-File' wird die Ausgabe an eine Datei gesendet."
+                ]
+            },
+            {
+                "Frage": "Welches System wird verwendet, wenn das Cmdlet 'Out-File' verwendet wird?",
+                "Antwort": [
+                    "Ein Formatierungssystem wird verwendet."
+                ]
+            },
+            {
+                "Frage": "Was macht der Parameter 'Encoding' bei der Verwendung von 'Out-File'?",
+                "Antwort": [
+                    "Der Parameter 'Encoding' wird für die Kodierung der Ausgabe verwendet.",
+                    "Standardmäßig wird UTF-8 verwendet."
+                ]
+            },
+            {
+                "Frage": "Was sind Umleitungsoperatoren in Bezug auf 'Out-File'?",
+                "Antwort": [
+                    "Umleitungsoperatoren leiten die Ausgabe an 'Out-File' weiter.",
+                    "Es gibt auch einen Umleitungsoperator 'Out-File Append', der die Ausgabe an das Ende einer bestehenden Datei anhängt."
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind die Einsatzmöglichkeiten der Microsoft Powershell für lokale Server?",
+                "Antwort": [
+                    "Erstellen von Benutzerkonten",
+                    "Verwaltung von lokalen Windows-Benutzerkonten",
+                    "Verwaltung von Microsoft-Konten",
+                    "Verwaltung von Azure Active Directory Konten"
+                ]
+            },
+            {
+                "Frage": "Was sind die Möglichkeiten der Powershell für Remoting?",
+                "Antwort": [
+                    "Ausführen von Befehlen auf Remote Computern",
+                    "Verfügt über integrierten Computer Name"
+                ]
+            }
+        ]
+    },
+    {
+        "Karteikarten": [
+            {
+                "Frage": "Was sind Automatisierungsplattformen?",
+                "Antwort": [
+                    "Automatisierungsplattformen sind Skript-Module, die verwendet werden, um verschiedene Plattformen zu verwalten."
+                ]
+            },
+            {
+                "Frage": "Welche Plattformen können mit Automatisierungsplattformen verwaltet werden?",
+                "Antwort": [
+                    "Microsoft",
+                    "Azure",
+                    "Windows",
+                    "Exchange",
+                    "SQL",
+                    "Drittanbieter wie AWS, VMware und Google Cloud"
+                ]
+            }
+        ]
+    }
+]

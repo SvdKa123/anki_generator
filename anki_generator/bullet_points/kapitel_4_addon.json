@@ -1,0 +1,104 @@
+{
+  "Was ist Paging?": [
+    "Speicherverwaltungstechnik, teilt Prozessadressraum in gleich große 'Seiten' auf",
+    "Ermöglicht Nutzung von virtuellem Speicher über die Hardwaregrenzen hinaus"
+  ],
+  "Was kennzeichnet den Prozessadressraum beim Paging?": [
+    "Set aus logischen Adressen, jeder Prozess hat eigenen Code",
+    "Seitengröße zwischen 512 und 8192 Byte"
+  ],
+  "Welche Vorteile bietet Paging?": [
+    "Speicher in 'Frames' aufgeteilt, Größe entspricht einer Seite",
+    "Reduziert externe Fragmentierung",
+    "Einfache Implementierung und Speichereffizienz",
+    "Gleich große Frames und Seiten erleichtern Auslagerung",
+    "Schneller Datenzugriff"
+  ],
+  "Was ist Fragmentierung?": [
+    "Aufteilung des freien Primärspeicherplatzes in kleinere Teile bei Prozessverschiebungen in/aus dem Hauptspeicher",
+    "Tritt auf, wenn kein Speicher für Prozesse wegen unzureichender Speichergröße zugewiesen werden kann"
+  ],
+  "Was ist externe Fragmentierung?": [
+    "Wenn Gesamtmenge des freien Primärspeichers ausreicht, aber in kleinen Blöcken vorliegt",
+    "Vermeidung durch Verdichtung/Umschichtung von Daten im Speicher"
+  ],
+  "Was ist interne Fragmentierung?": [
+    "Auftritt, wenn zugewiesener Speicher größer als benötigte Menge für einen Prozess ist",
+    "Teil des Speichers bleibt ungenutzt, kann nicht von anderen Prozessen verwendet werden",
+    "Reduzierung durch Zuweisung kleinster möglicher Speicherpartition"
+  ],
+  "Was ist Swapping?": [
+    "Technik zur effizienten Verwaltung des Betriebssystem-Speichers"
+  ],
+  "Welche Aufgaben hat Swapping?": [
+    "Swapping in: Verschiebung von Datenblöcken aus dem Sekundärspeicher in den Primärspeicher",
+    "Swapping out: Auslagerung von Datenblöcken/Seiten aus dem Hauptspeicher auf den Sekundärspeicher"
+  ],
+  "Wann ist Swapping nützlich?": [
+    "Bei der Ausführung großer Programme",
+    "Bei großen Operationen an umfangreichen Dateien"
+  ],
+  "Was ist notwendig für die Verwaltung des freien Speichers?": [
+    "Kennzeichnung von Segmenten des Speichers als belegt oder frei"
+  ],
+  "Was ist die einfachste Form der Speicherzuweisung?": [
+    "Bitliste: Zuweisung des Werts 1/0 zu jedem Speichersegment"
+  ],
+  "Was ist eine weitere Form der Speicherzuweisung?": [
+    "Verkettete Liste (Linked Lists): Informationen über Belegung, Anfang und Länge von Segmenten",
+    "Geeignet für Heap Space mit häufigen Anforderungen und Freigaben (malloc and free)"
+  ],
+  "Was ist die First Fit-Strategie?": [
+    "Verwendet die erste passende Lücke im Speicherraum",
+    "Suche beginnt am unteren oder oberen Ende, kann großen Speicherbereich belegen"
+  ],
+  "Was ist die Rotating First Fit/Next Fit-Strategie?": [
+    "Nutzt passende Lücke, beginnt Suche bei zuletzt zugewiesener Lücke"
+  ],
+  "Was ist die Best Fit-Strategie?": [
+    "Sucht die kleinste passende Lücke, Lücken müssen aufsteigend sortiert sein",
+    "Reduziert Verschnitt"
+  ],
+  "Was ist die Worst Fit-Strategie?": [
+    "Sortiert Lücken absteigend nach Größe, nutzt erste verfügbare Lücke",
+    "Führt zu vielen kleinen Lücken"
+  ],
+  "Was ist das Buddy-Verfahren nach Donald Ervin Knuth?": [
+    "Speicherverwaltungsverfahren, das Komplexität reduziert und Verschnitt vermeidet"
+  ],
+  "Wie funktioniert das Buddy-Verfahren?": [
+    "Beginn mit einem Block, der den gesamten Speicher abdeckt",
+    "Speicheranforderungen werden zur nächsthöheren Zweierpotenz aufgerundet",
+    "Suche und Zuweisung eines entsprechenden Blocks an den Prozess",
+    "Prüfung, ob zwei geteilte Buddies gleicher Größe zu einem größeren Block zusammengefasst werden können"
+  ],
+  "Welches Problem entsteht bei der Speicheradressenzuweisung im Multitasking?": [
+    "Problem der Wiedereinlagerung von Prozessen an dieselbe Stelle im Hauptspeicher"
+  ],
+  "Was sind Adresskollisionen im Multitasking?": [
+    "Entstehen durch statische Bindung von Adressen, führen zu Konflikten"
+  ],
+  "Wie kann das Problem der Adresskollisionen gelöst werden?": [
+    "Partitionierung des Speichers als Lösungsansatz"
+  ],
+  "Was ist der Unterschied zwischen statischem und dynamischem Binden?": [
+    "Statisches Binden beim Laden, dynamisches Binden während der Ausführung",
+    "Beeinflusst Flexibilität und Leistung"
+  ],
+  "Was sind die Herausforderungen bei Massenspeichern?": [
+    "Begrenzter Speicher in CPU und RAM erfordert zusätzliche Massenspeicher",
+    "Magnetische Aufzeichnung als Verfahren zur Speicherung großer Datenmengen",
+    "Festplattencontroller abstrahieren den physischen Aufbau der Laufwerke",
+    "Betriebssystemaufgaben umfassen Verwaltung von Dateispeicherung, Sicherheit und Zuverlässigkeit"
+  ],
+  "Was kennzeichnet den Aufbau einer HDD?": [
+    "Starr angebrachte Speicherplatten mit Schreib-/Leseköpfen",
+    "Verwendung von CHS-Information zur eindeutigen Lokalisierung von Sektoren",
+    "Betriebssystemsteuerung für die Verwaltung der Speicherplatzvergabe"
+  ],
+  "Was sind die Merkmale einer SSD?": [
+    "Basiert auf Flash-Speicher, bietet bessere Leistung und Haltbarkeit als HDDs",
+    "Komplexes Aktualisieren von Daten in Blöcken",
+    "Einsatz von Garbage Collection und TRIM zur Optimierung der Leistung und Lebensdauer"
+  ]
+}

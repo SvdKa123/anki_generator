@@ -1,0 +1,96 @@
+{
+  "Wer hat die grafische Benutzeroberfläche entwickelt und wann?": [
+    "Entwickelt 1981 von Alan Kay und anderen Forschern"
+  ],
+  "Welche Rolle spielte Steve Jobs in der Entwicklung der grafischen Benutzeroberfläche?": [
+    "Sah Möglichkeit für benutzerfreundlichen PC",
+    "Führte zur Ankündigung des Apple Macintosh 1981"
+  ],
+  "Wer hat Windows erfunden und was war es ursprünglich?": [
+    "Microsoft als Erfinder",
+    "Ursprünglich eine grafische Umgebung auf 16-Bit MS-DOS"
+  ],
+  "Was sind die aktuellen Versionen von Windows und wie sind sie entstanden?": [
+    "Nachkommen von Windows NT, neu geschrieben auf 32-Bit"
+  ],
+  "Unterstützen alle Unix-Systeme ein Fenstersystem?": [
+    "Ja, alle Unix-Systeme unterstützen ein Fenstersystem"
+  ],
+  "Was sind die grundlegenden Funktionen eines Fenstersystems?": [
+    "Verwaltung grundlegender Fenster",
+    "Erstellung, Löschung, Bewegung, Größenänderung von Fenstern",
+    "Interaktion mit Maus"
+  ],
+  "Was ermöglicht das Fenstersystem für Unix-Systeme?": [
+    "Ähnliches Aussehen und Bedienung wie Mac oder Windows"
+  ],
+  "Was ist die Funktion von Elementen grafischer Bedienung im Frontend?": [
+    "Benutzerfreundliche Darstellung von Funktionen",
+    "Vereinfachung alltäglicher Arbeit"
+  ],
+  "Warum sind Symbole und Bilder in der grafischen Bedienung wichtig?": [
+    "Universelle und textunabhängige Arbeit"
+  ],
+  "Was ist ein Widget?": [
+    "Anzeigeelement für Informationen",
+    "Interaktionsmöglichkeiten mit Anwendung/Betriebssystem",
+    "Mit Fenster assoziiertes Objekt"
+  ],
+  "Was ist ein Icon?": [
+    "Komponente von GUI-Betriebssystemen",
+    "Hilft bei Identifizierung des Dateityps"
+  ],
+  "Welche Arten von Icons gibt es?": [
+    "System-Icons",
+    "Verknüpfungs-Icons",
+    "Programmordner-/Dokumentensymbole"
+  ],
+  "Was ist eine Event-Loop im Kontext von Event-Handling?": [
+    "Schleife im GUI-Thread",
+    "Wartet auf Ereignisse",
+    "Ermöglicht beliebige Benutzeraktionen"
+  ],
+  "Wie verarbeiten die meisten GUI Benutzerinteraktionen?": [
+    "Verwendung von Event-Loops"
+  ],
+  "Welche verschiedenen Eingabestrategien sollten in Betracht gezogen werden beim Event-Handling?": [
+    "Maus",
+    "Tastatur",
+    "Touch"
+  ],
+  "Wer stellt einige Technologien für Event-Handling bereit?": [
+    "Bereitstellung durch Betriebssystem"
+  ],
+  "Was bedeutet es, dass der Benutzer ein nicht bestimmbares Element bedienen kann?": [
+    "Benutzer kann jederzeit mit Element interagieren"
+  ],
+  "Wie kann das Programm Reaktionen unabhängig bereitstellen?": [
+    "Verwendung von Callback-Funktionen"
+  ],
+  "Was ist eine Callback-Funktion?": [
+    "Funktion für spätere Ausführung nach Ereigniseintritt"
+  ],
+  "Wie verarbeitet eine Funktion ein Ereignis?": [
+    "Reaktion auf Ereignis",
+    "Ausführung entsprechender Aktionen"
+  ],
+  "Was ist die Rolle des Window-Managers in einer grafischen Oberfläche?": [
+    "Verantwortlich für Platzierung von Fenstern",
+    "Vergrößern, Schließen, Öffnen, Verschieben von Fenstern"
+  ],
+  "Warum ist die Entwicklung grafischer Anwendungen aufwendiger als die Entwicklung von CLI?": [
+    "Anordnung von grafischen Steuerelementen",
+    "Aufwendiger als CLI-Arbeit"
+  ],
+  "Wie können IDEs den Prozess der Anwendungsentwicklung in einer grafischen Oberfläche erleichtern?": [
+    "Anordnen von grafischen Steuerelementen per Drag and Drop",
+    "Automatische Code-Erstellung"
+  ],
+  "Was passiert, wenn Widgets im Quellcode manuell angepasst werden müssen?": [
+    "Zeitaufwendig bis zur korrekten Anpassung",
+    "IDEs können Automatisierung und Vereinfachung bieten"
+  ],
+  "Was sind Signale und Slots im Kontext von Widgets?": [
+    "Mechanismen für Kommunikation zwischen Widgets"
+  ]
+}
